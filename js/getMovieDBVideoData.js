@@ -36,7 +36,7 @@ function getMovieDBVideoInfoDataSuccess (result, id) {
 		}
 	}
 	// alert(trailerKey);
-	// $("#trailerPlay").html(trailerKey);
+	$("#trailerPlay").html(trailerKey);
 	// document.getElementById('playButton').focus();
 }
 
