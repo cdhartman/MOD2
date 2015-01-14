@@ -1,0 +1,48 @@
+{"section": "1",
+"genre": "Action",
+"movies" : [
+	{
+	  "row": "1",
+	  "titles": [
+		{},
+		{"title": "Avengers", "movieDBID": "24428", "imdbID": "tt0848228", "format":"720p"},
+		{"title": "Bourne Legacy", "movieDBID": "49040", "imdbID": "tt1194173", "format":"720p"},
+		{"title": "Captain America", "movieDBID": "1771", "imdbID": "tt0458339", "format":"720p"},
+		{"title": "Dark Knight Rises", "movieDBID": "49026", "imdbID": "tt1345836", "format":"720p"},
+		{"title": "Ender's Game", "movieDBID": "80274", "imdbID": "tt1731141", "format":"SD"},
+		{"title": "Fistful of Dollars", "movieDBID": "391", "imdbID": "tt0058461", "format":"SD"},
+		{"title": "Getaway", "movieDBID": "146227", "imdbID": "tt2167202", "format":"SD"},
+		{"title": "Hobbit: An Unexpected Journey", "movieDBID": "49051", "imdbID": "tt0903624", "format":"SD"},
+		{"title": "Hobbit: Desolation of Smaug", "movieDBID": "57158", "imdbID": "tt1170358", "rowTarget": "2"}
+	  ]
+	},
+	{
+	  "row": "2",
+	  "titles": [
+		{"title": "Hobbit: An Unexpected Journey", "movieDBID": "49051", "imdbID": "tt0903624", "rowTarget": "1"},
+		{"title": "Hobbit: Desolation of Smaug", "movieDBID": "57158", "imdbID": "tt1170358", "format":"SD"},
+		{"title": "Hunger Games", "movieDBID": "70160", "imdbID": "tt1392170", "format":"720p"},
+		{"title": "Hunger Games: Catching Fire", "movieDBID": "101299", "imdbID": "tt1951264", "format":"SD"},
+		{"title": "Inception", "movieDBID": "80274", "imdbID": "tt1731141", "format":"720p"},
+		{"title": "Iron Man 3", "movieDBID": "391", "imdbID": "tt0058461", "format":"720p"},
+		{"title": "Jack Reacher", "movieDBID": "146227", "imdbID": "tt2167202", "format":"SD"},
+		{"title": "John Carter", "movieDBID": "49529", "imdbID": "tt0401729", "format":"720p"},
+		{"title": "Lone Ranger", "movieDBID": "57201", "imdbID": "tt1210819", "format":"SD"},
+		{"title": "Looper", "movieDBID": "59967", "imdbID": "tt1276104", "rowTarget": "3"}
+	  ]
+	},
+	{
+	  "row": "3",
+	  "titles": [
+		{"title": "Lone Ranger", "movieDBID": "57201", "imdbID": "tt1210819", "rowTarget": "2"},
+		{"title": "Looper", "movieDBID": "59967", "imdbID": "tt1276104", "format":"720p"},
+		{"title": "Mission Impossible 4", "movieDBID": "56292", "imdbID": "tt1229238", "format":"720p"},
+		{"title": "Pacific Rim", "movieDBID": "68726", "imdbID": "tt1663662", "format":"SD"},
+		{"title": "Star Trek: Into Darkness", "movieDBID": "54138", "imdbID": "tt1408101", "format":"SD"},
+		{"title": "Skyfall", "movieDBID": "37724", "imdbID": "tt1074638", "format":"720p"},
+		{"title": "Red", "movieDBID": "39514", "imdbID": "tt1245526", "format":"SD"},
+		{"title": "Thor: The Dark World", "movieDBID": "76338", "imdbID": "tt1981115", "format":"SD"},
+		{"title": "X-Men: First Class", "movieDBID": "49538", "imdbID": "tt1270798", "format":"720p"}
+	  ]
+	}
+]}

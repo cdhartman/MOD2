@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="cdh02" />
+	<title>Complimentary Movies</title>
+	<link href="favicon.ico" rel="shortcut icon" />
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="js/jquery/jquery-1.min.js"></script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+		<script type="text/javascript" src="js/jquery/jquery-2.min.js"></script>
+	<!--<![endif]-->
+	<script type="text/javascript" charset="utf-8" src="js/jquery/jquery.scrollTo.min.js"></script>
+	<script type='text/javascript' src="js/bootstrap/bootstrap.js"></script>
+	<script type='text/javascript' src="js/modExtras.js"></script>
+	<script type='text/javascript' src="js/getMoviesByCategory.js"></script>
+	<script src="js/cordova.js"></script>
+	
+	<script type="text/javascript" src="js/jquery/handlebars-v2.0.0.js"></script>
+	<script id="movieCarouselHandleBarsTemplate" type="text/x-handlebars-template"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/clock.css">
+	<link rel="stylesheet" type="text/css" href="css/shelf.css">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<script  type='text/javascript'>
+		// alert(navigator.userAgent);
+		if (isMobileDevice() || (navigator.userAgent.search("iPad") != -1)) {
+			// document.write('<link rel=stylesheet type=text/css href=css/carousel/animated-slider-mobile.css >');
+			document.write('<link rel=stylesheet type=text/css href=css/mobile.css >');
+		} else {
+			// document.write('<link rel=stylesheet type=text/css href=css/carousel/animated-slider-desktop.css >');
+			document.write('<link rel=stylesheet type=text/css href=css/desktop.css >');
+		}
+		$("a").mouseenter(function() {
+		  audio.play();
+		});
+	</script>
+	
+</head>
+
+<body>
+<div id="header"></div>
+
+<div class="categoryTitle">New & Popular Releases</div>
+<span id="myCarouselNewReleases"></span>
+<div style="clear:both;"><br /></div>
+
+<div class="categoryTitle">Action</div>
+<div id="myCarouselAction" class="carousel slide"></div>
+<div style="clear:both;"></div>
+
+<div class="categoryTitle">Comedy</div>
+<div id="myCarouselComedy" class="carousel slide"></div>
+<div style="clear:both;"></div>
+
+<div class="categoryTitle">Drama</div>
+<div id="myCarouselDrama" class="carousel slide"></div>
+<div style="clear:both;"></div>
+
+<div class="categoryTitle">Family</div>
+<div id="myCarouselFamily" class="carousel slide"></div>
+<div style="clear:both;"></div>
+
+</body>
+</html>
+
+<script type="text/javascript">
+	$('#header').html("<img src=\"images/misc/ajax-loader.gif\" alt=\"ajax\" /> Loading Header, please wait...").load('includes/header.html');
+	$('#myCarouselNewReleases').html("<img src=\"images/misc/ajax-loader.gif\" alt=\"ajax\" /> Loading New Releases, please wait...").load('includes/movies/newReleasesV2.html');
+ 	
+	$('#myCarouselAction').html("<img src=\"images/misc/ajax-loader.gif\" alt=\"ajax\" /> Loading Action Movies, please wait...").load('includes/movies/actionV2.html');
+	$('#myCarouselComedy').html("<img src=\"images/misc/ajax-loader.gif\" alt=\"ajax\" /> Loading Comedy Movies, please wait...").load('includes/movies/comedyV2.html');
+	$('#myCarouselDrama').html("<img src=\"images/misc/ajax-loader.gif\" alt=\"ajax\" /> Loading Drama Movies, please wait...").load('includes/movies/dramaV2.html');
+	$('#myCarouselFamily').html("<img src=\"images/misc/ajax-loader.gif\" alt=\"ajax\" /> Loading Family Movies, please wait...").load('includes/movies/familyV2.html');
+/*	
+	// loadHandlebarDataAndTemplate('json/categories/action.json','templates/carousel.txt', 'movieCarouselHandleBarsTemplate', 'myCarouselAction');
+	// loadHandlebarDataAndTemplate('json/categories/comedy.json','templates/carousel.txt', 'movieCarouselHandleBarsTemplate', 'myCarouselComedy');
+	// loadHandlebarDataAndTemplate('json/categories/drama.json','templates/carousel.txt', 'movieCarouselHandleBarsTemplate', 'myCarouselDrama');
+	// loadHandlebarDataAndTemplate('json/categories/family.json','templates/carousel.txt', 'movieCarouselHandleBarsTemplate', 'myCarouselFamily');
+	
+	getMovieByCategories('action','myCarouselAction');
+	getMovieByCategories('comedy','myCarouselComedy');
+	getMovieByCategories('drama','myCarouselDrama');
+	getMovieByCategories('family','myCarouselFamily');
+*/	
+	$("#myCarouselAction, #myCarouselComedy, #myCarouselDrama, #myCarouselFamily").carousel({
+		 interval : false,
+		 pause: false,
+		 wrap: false
+	 });
+	$("#myCarouselNewReleases").carousel({
+		 interval : 10000,
+		 pause: false
+	});
+
+	$('body').on('click', 'a', function(e) {
+		window.sessionStorage.setItem("scrollPosition", $(window).scrollTop());
+	});
+
+	if (!isMobileDevice()) {navigationKeys();}
+	// navigationKeys();
+	setTimeout(function(){
+		
+		// var temp = 'myCarousel' + window.sessionStorage.getItem('category').carousel(window.sessionStorage.getItem('row')-1);
+			// alert(window.sessionStorage.getItem('category') + window.sessionStorage.getItem('row') + window.sessionStorage.getItem('item'));
+			// if (window.sessionStorage.getItem('row') > 1) {$('#' + window.sessionStorage.getItem('category') + 'NextRow1').click();}
+			//if (window.sessionStorage.getItem('row') == 2) {$('#' + window.sessionStorage.getItem('category') + 'NextRow1').click();}
+			if (window.sessionStorage.getItem('row') > 1) {$('#myCarousel' + window.sessionStorage.getItem('category')).carousel(window.sessionStorage.getItem('row')-1)}
+			$(document).scrollTop( window.sessionStorage.getItem("scrollPosition"), 0, {duration:150});
+			// alert(window.sessionStorage.getItem('item'));
+			if (window.sessionStorage.getItem('item') > 1) {
+				$('[tabindex=' + window.sessionStorage.getItem('item') + ']').focus();} else {$('[tabindex=111]').focus();
+			}
+		}, 500
+	);
+</script>
+<div style="display: none;">
+	<audio id="beep-one" controls="controls" preload="auto">
+			<source src="audio/beep2.mp3"></source>
+			<source src="audio/beep.ogg"></source>
+			Your browser isn't invited for super fun time.
+		</audio>
+	<script>var beepOne = $("#beep-one")[0];</script>
+</div>

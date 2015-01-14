@@ -1,0 +1,97 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 771351757,
+  "title": "Muscle Shoals",
+  "year": 2013,
+  "genres": [
+    "Documentary",
+    "Musical & Performing Arts",
+    "Special Interest"
+  ],
+  "mpaa_rating": "PG",
+  "runtime": 111,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2013-09-27",
+    "dvd": "2014-02-25"
+  },
+  "ratings": {
+    "critics_rating": "Certified Fresh",
+    "critics_score": 96,
+    "audience_rating": "Upright",
+    "audience_score": 87
+  },
+  "synopsis": "MUSCLE SHOALS is a documentary about a place filled with magic and music, legend and folklore, where the river is inhabited by a Native American spirit who has lured some of the greatest Rock and Roll and Soul legends of all time, and drawn from them some of the most uplifting, defiant, and important music ever created. In Muscle Shoals, Alabama, music runs through the hills, the river, and the spirit of the people. It is a place where, even before the Civil Rights Movement really took shape, the color of your skin didn't matter inside the studio. (C) Magnolia",
+  "posters": {
+    "thumbnail": "http://content9.flixster.com/movie/11/17/30/11173047_tmb.jpg",
+    "profile": "http://content9.flixster.com/movie/11/17/30/11173047_tmb.jpg",
+    "detailed": "http://content9.flixster.com/movie/11/17/30/11173047_tmb.jpg",
+    "original": "http://content9.flixster.com/movie/11/17/30/11173047_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Gregg Allman",
+      "id": "770713871"
+    },
+    {
+      "name": "Bono",
+      "id": "162661556"
+    },
+    {
+      "name": "Bob Dylan",
+      "id": "162656030"
+    },
+    {
+      "name": "Aretha Franklin",
+      "id": "364655727"
+    },
+    {
+      "name": "Mick Jagger",
+      "id": "162725651"
+    }
+  ],
+  "abridged_directors": [{"name": "Greg \"Freddy\" Camalier"}],
+  "studio": "Magnolia Pictures",
+  "alternate_ids": {"imdb": "2492916"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=2492916",
+    "alternate": "http://www.rottentomatoes.com/m/muscle_shoals_2013/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771351757/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771351757/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771351757/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/771351757.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

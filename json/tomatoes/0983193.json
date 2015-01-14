@@ -1,0 +1,102 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 770681094,
+  "title": "The Adventures of Tintin",
+  "year": 2011,
+  "genres": [
+    "Action & Adventure",
+    "Animation",
+    "Kids & Family"
+  ],
+  "mpaa_rating": "PG",
+  "runtime": 107,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2011-12-21",
+    "dvd": "2012-03-13"
+  },
+  "ratings": {
+    "critics_rating": "Certified Fresh",
+    "critics_score": 75,
+    "audience_rating": "Upright",
+    "audience_score": 74
+  },
+  "synopsis": "Paramount Pictures and Columbia Pictures Present a 3D Motion Capture Film The Adventures of Tintin directed by Steven Spielberg from a screenplay by Steven Moffat and Edgar Wright & Joe Cornish. Starring Jamie Bell as Tintin, the intrepid young reporter whose relentless pursuit of a good story thrusts him into a world of high adventure, and Daniel Craig as the nefarious Red Rackham. -- (C) Official Site",
+  "posters": {
+    "thumbnail": "http://content7.flixster.com/movie/11/16/91/11169145_tmb.jpg",
+    "profile": "http://content7.flixster.com/movie/11/16/91/11169145_tmb.jpg",
+    "detailed": "http://content7.flixster.com/movie/11/16/91/11169145_tmb.jpg",
+    "original": "http://content7.flixster.com/movie/11/16/91/11169145_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Jamie Bell",
+      "id": "162653082",
+      "characters": ["Tintin"]
+    },
+    {
+      "name": "Andy Serkis",
+      "id": "269710329",
+      "characters": ["Captain Haddock/Sir Francis Haddock"]
+    },
+    {
+      "name": "Daniel Craig",
+      "id": "162687443",
+      "characters": ["Rackham/Sakharine"]
+    },
+    {
+      "name": "Nick Frost",
+      "id": "162684059",
+      "characters": ["Thomson"]
+    },
+    {
+      "name": "Simon Pegg",
+      "id": "162684057",
+      "characters": ["Thompson"]
+    }
+  ],
+  "abridged_directors": [{"name": "Steven Spielberg"}],
+  "studio": "Paramount",
+  "alternate_ids": {"imdb": "0983193"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=0983193",
+    "alternate": "http://www.rottentomatoes.com/m/the_adventures_of_tintin/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/770681094/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/770681094/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/770681094/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/770681094.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

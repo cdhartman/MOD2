@@ -1,0 +1,46 @@
+{"section": "3",
+"genre": "Drama",
+"movies" : [
+	{
+	  "row": "1",
+	  "titles": [
+		{},
+		{"title": "42", "movieDBID": "109410", "imdbID": "tt0453562", "format":"720p"},
+		{"title": "Adjustment Bureau", "movieDBID": "38050", "imdbID": "tt1385826", "format":"720p"},
+		{"title": "August Rush", "movieDBID": "5123", "imdbID": "tt0426931", "format":"SD"},
+		{"title": "Blind Side", "movieDBID": "22881", "imdbID": "tt0878804", "format":"SD"},
+		{"title": "Captain Phillips", "movieDBID": "109424", "imdbID": "tt1535109", "format":"SD"},
+		{"title": "Ender's Game", "movieDBID": "80274", "imdbID": "tt1731141", "format":"SD"},
+		{"title": "Forest Gump", "movieDBID": "13", "imdbID": "tt0109830", "format":"1080p"},
+		{"title": "Gracie", "movieDBID": "15568", "imdbID": "tt0441007", "format":"SD"},
+		{"title": "Gravity", "movieDBID": "49047", "imdbID": "tt1454468", "rowTarget": "2"}
+	  ]
+	},
+	{
+	  "row": "2",
+	  "titles": [
+		{"title": "Gracie", "movieDBID": "15568", "imdbID": "tt0441007", "rowTarget": "1"},
+		{"title": "Gravity", "movieDBID": "49047", "imdbID": "tt1454468", "format":"SD"},
+		{"title": "Great Debaters", "movieDBID": "14047", "imdbID": "tt0427309"},
+		{"title": "Help", "movieDBID": "50014", "imdbID": "tt1454029", "format":"720p"},
+		{"title": "Lincoln", "movieDBID": "72976", "imdbID": "tt0083131", "format":"SD"},
+		{"title": "Longshots", "movieDBID": "13579", "imdbID": "tt1091751", "format":"SD"},
+		{"title": "Martian Child", "movieDBID": "5126", "imdbID": "tt0415965", "format":"SD"},
+		{"title": "Muscle Shoals", "movieDBID": "159151", "imdbID": "tt2492916", "format":"SD"},
+		{"title": "Perks of Being a Wallflower", "movieDBID": "84892", "imdbID": "tt1659337", "format":"SD"},
+		{"title": "Quartet", "movieDBID": "121826", "imdbID": "tt1441951", "rowTarget": "3"}
+	  ]
+	},
+	{
+	  "row": "3",
+	  "titles": [
+		{"title": "Perks of Being a Wallflower", "movieDBID": "84892", "imdbID": "tt1659337", "rowTarget": "2"},
+		{"title": "Quartet", "movieDBID": "121826", "imdbID": "tt1441951", "format":"SD"},
+		{"title": "Saving Mr. Banks", "movieDBID": "140823", "imdbID": "tt2140373", "format":"SD"},
+		{"title": "Shawshank Redemption", "movieDBID": "278", "imdbID": "tt0111161", "format":"1080p"},
+		{"title": "Sherlock Holmes: Games", "movieDBID": "58574", "imdbID": "tt1515091", "format":"720p"},
+		{"title": "Source Code", "movieDBID": "45612", "imdbID": "tt0945513", "format":"SD"},
+		{"title": "Step Up", "movieDBID": "9762", "imdbID": "tt0462590", "format":"SD"}
+	  ]
+	}
+]}

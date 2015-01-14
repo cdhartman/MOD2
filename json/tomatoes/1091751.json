@@ -1,0 +1,101 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 770771598,
+  "title": "The Longshots",
+  "year": 2008,
+  "genres": [
+    "Drama",
+    "Comedy"
+  ],
+  "mpaa_rating": "PG",
+  "runtime": 94,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2008-08-22",
+    "dvd": "2008-12-02"
+  },
+  "ratings": {
+    "critics_rating": "Rotten",
+    "critics_score": 40,
+    "audience_rating": "Upright",
+    "audience_score": 62
+  },
+  "synopsis": "",
+  "posters": {
+    "thumbnail": "http://content8.flixster.com/movie/11/17/01/11170118_tmb.jpg",
+    "profile": "http://content8.flixster.com/movie/11/17/01/11170118_tmb.jpg",
+    "detailed": "http://content8.flixster.com/movie/11/17/01/11170118_tmb.jpg",
+    "original": "http://content8.flixster.com/movie/11/17/01/11170118_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Ice Cube",
+      "id": "162652332",
+      "characters": ["Curtis Plummer"]
+    },
+    {
+      "name": "Keke Palmer",
+      "id": "335286335",
+      "characters": ["Jasmine Plummer"]
+    },
+    {
+      "name": "Tasha Smith",
+      "id": "462957582",
+      "characters": ["Claire Plummer"]
+    },
+    {
+      "name": "Jill Marie Jones",
+      "id": "770690854",
+      "characters": ["Ronnie"]
+    },
+    {
+      "name": "Dash Mihok",
+      "id": "162733478",
+      "characters": ["Cyrus"]
+    }
+  ],
+  "abridged_directors": [{"name": "Fred Durst"}],
+  "studio": "The Weinstein Company",
+  "alternate_ids": {"imdb": "1091751"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=1091751",
+    "alternate": "http://www.rottentomatoes.com/m/longshots/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/770771598/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/770771598/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/770771598/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/770771598.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

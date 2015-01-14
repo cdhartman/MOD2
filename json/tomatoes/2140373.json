@@ -1,0 +1,101 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 771318858,
+  "title": "Saving Mr. Banks",
+  "year": 2013,
+  "genres": [
+    "Drama",
+    "Comedy"
+  ],
+  "mpaa_rating": "PG-13",
+  "runtime": 120,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2013-12-20",
+    "dvd": "2014-03-18"
+  },
+  "ratings": {
+    "critics_rating": "Certified Fresh",
+    "critics_score": 80,
+    "audience_rating": "Upright",
+    "audience_score": 85
+  },
+  "synopsis": "Two-time Academy Award (R)-winner Emma Thompson and fellow double Oscar (R)-winner Tom Hanks topline Disney's \"Saving Mr. Banks,\" inspired by the extraordinary, untold backstory of how Disney's classic \"Mary Poppins\" made it to the screen. When Walt Disney's daughters begged him to make a movie of their favorite book, P.L. Travers' \"Mary Poppins,\" he made them a promise-one that he didn't realize would take 20 years to keep. In his quest to obtain the rights, Walt comes up against a curmudgeonly, uncompromising writer who has absolutely no intention of letting her beloved magical nanny get mauled by the Hollywood machine. But, as the books stop selling and money grows short, Travers reluctantly agrees to go to Los Angeles to hear Disney's plans for the adaptation. For those two short weeks in 1961, Walt Disney pulls out all the stops. Armed with imaginative storyboards and chirpy songs from the talented Sherman brothers, Walt launches an all-out onslaught on P.L. Travers, but the prickly author doesn't budge. He soon begins to watch helplessly as Travers becomes increasingly immovable and the rights begin to move further away from his grasp. It is only when he reaches into his own childhood that Walt discovers the truth about the ghosts that haunt her, and together they set Mary Poppins free to ultimately make one of the most endearing films in cinematic history. Inspired by true events, \"Saving Mr. Banks\" is the extraordinary, untold story of how Disney's classic \"Mary Poppins\" made it to the screen-and the testy relationship that the legendary Walt Disney had with author P.L. Travers that almost derailed it. (C) Disney",
+  "posters": {
+    "thumbnail": "http://content6.flixster.com/movie/11/17/25/11172532_tmb.jpg",
+    "profile": "http://content6.flixster.com/movie/11/17/25/11172532_tmb.jpg",
+    "detailed": "http://content6.flixster.com/movie/11/17/25/11172532_tmb.jpg",
+    "original": "http://content6.flixster.com/movie/11/17/25/11172532_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Emma Thompson",
+      "id": "162659389",
+      "characters": ["P.L. Travers"]
+    },
+    {
+      "name": "Tom Hanks",
+      "id": "162655641",
+      "characters": ["Walt Disney"]
+    },
+    {
+      "name": "Colin Farrell",
+      "id": "162665297",
+      "characters": ["Robert Goff Travers"]
+    },
+    {
+      "name": "Bradley Whitford",
+      "id": "162652612",
+      "characters": ["Don DaGradi"]
+    },
+    {
+      "name": "Paul Giamatti",
+      "id": "162683649",
+      "characters": ["Ralph"]
+    }
+  ],
+  "abridged_directors": [{"name": "John Lee Hancock"}],
+  "studio": "Walt Disney Pictures",
+  "alternate_ids": {"imdb": "2140373"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=2140373",
+    "alternate": "http://www.rottentomatoes.com/m/saving_mr_banks_2013/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771318858/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771318858/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771318858/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/771318858.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

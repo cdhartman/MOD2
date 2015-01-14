@@ -1,0 +1,57 @@
+{"adult":false,"backdrop_path":"/s8o6jcfRwEBhctSf2x2YhRl2E42.jpg","belongs_to_collection":null,"budget":80000000,"genres":[{"id":28,"name":"Action"
+},{"id":35,"name":"Comedy"
+},{"id":53,"name":"Thriller"
+}],"homepage":"http://getsmartmovie.warnerbros.com/","id":11665,"imdb_id":"tt0425061","original_title":"Get Smart","overview":"When the identities of secret agents from Control are compromised, the Chief promotes hapless but eager analyst Maxwell Smart and teams him with stylish, capable Agent 99, the only spy whose cover remains intact. Can they work together to thwart the evil plans of KAOS and its crafty operative?","popularity":"1.92096554688927","poster_path":"/qWBln0B1Zxc24Lcuhqfhtu6coPR.jpg","production_companies":[{"name":"Village Roadshow Pictures","id":79
+},{"name":"Mosaic Media Group","id":748
+},{"name":"Warner Bros Pictures","id":4209
+}],"production_countries":[{"iso_3166_1":"CA","name":"Canada"
+},{"iso_3166_1":"RU","name":"Russian Federation"
+},{"iso_3166_1":"US","name":"United States of America"
+}],"release_date":"2008-06-19","revenue":230685453,"runtime":110,"spoken_languages":[{"iso_639_1":"en","name":"English"
+},{"iso_639_1":"ru","name":"Pусский"
+}],"status":"Released","tagline":"Saving The World...And Loving It!","title":"Get Smart","vote_average":5.8,"vote_count":229,"images":{"backdrops":[{"aspect_ratio":1.78,"file_path":"/s8o6jcfRwEBhctSf2x2YhRl2E42.jpg","height":1080,"iso_639_1":null,"vote_average":"5.34065934065934","vote_count":2,"width":1920
+},{"aspect_ratio":1.78,"file_path":"/vNcScrMvTtl4dPEVD0R91dnl3iV.jpg","height":1080,"iso_639_1":null,"vote_average":"5.31868131868132","vote_count":2,"width":1920
+},{"aspect_ratio":1.78,"file_path":"/xmWJE3uuparKhzSoxiGi2HExpTf.jpg","height":1080,"iso_639_1":null,"vote_average":5.3125,"vote_count":1,"width":1920
+},{"aspect_ratio":1.78,"file_path":"/gBPQr2IYIS3iMD8OOI8dgybIGfI.jpg","height":1080,"iso_639_1":null,"vote_average":5.3125,"vote_count":1,"width":1920
+},{"aspect_ratio":1.78,"file_path":"/jrWrNLPeeB4d7II30EJRSYX7Sbr.jpg","height":1080,"iso_639_1":null,"vote_average":"5.28273809523809","vote_count":1,"width":1920
+},{"aspect_ratio":1.78,"file_path":"/pJ1bq3FoyoD72uMcwtBDuk6l5Gn.jpg","height":720,"iso_639_1":null,"vote_average":"5.27529761904762","vote_count":1,"width":1280
+},{"aspect_ratio":1.78,"file_path":"/qZhoERrIJojI1HGHwDhGTanS6FY.jpg","height":720,"iso_639_1":null,"vote_average":"5.27529761904762","vote_count":1,"width":1280
+},{"aspect_ratio":1.78,"file_path":"/qQQGtcseDcDcDsxiuGccG8wYYD4.jpg","height":1080,"iso_639_1":null,"vote_average":"5.27472527472527","vote_count":2,"width":1920
+},{"aspect_ratio":1.78,"file_path":"/fbNqgrE4T9En6o85dd1aSeUYdPx.jpg","height":720,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1280
+},{"aspect_ratio":1.78,"file_path":"/szoq9Apbbfzbe1AFU77CkuIfJ6H.jpg","height":720,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1280
+}],"posters":[{"aspect_ratio":0.67,"file_path":"/qWBln0B1Zxc24Lcuhqfhtu6coPR.jpg","height":1500,"id":"4ea619a434f8633bdc004469","iso_639_1":"en","vote_average":"5.49395877754087","vote_count":4,"width":1000
+},{"aspect_ratio":0.67,"file_path":"/zS3UhYJvy6oLTBgNckpoyAa0qNs.jpg","height":1500,"id":"4ea6199434f8633bdc004457","iso_639_1":"en","vote_average":"5.44117647058823","vote_count":5,"width":1000
+},{"aspect_ratio":0.67,"file_path":"/3qRXuUkYcCs6KmU3phLGJzR7MKl.jpg","height":1500,"id":"4ea6199834f8633bdc00445b","iso_639_1":"en","vote_average":"5.39906103286385","vote_count":8,"width":1000
+},{"aspect_ratio":0.67,"file_path":"/q99hK0PjqBQHtgHy8P690EBT0Wb.jpg","height":1500,"id":"4ea6199634f8633bdc004459","iso_639_1":"en","vote_average":"5.32913165266106","vote_count":5,"width":1000
+},{"aspect_ratio":0.67,"file_path":"/eKxB7qDjtIulsceVwlyszkVT9eG.jpg","height":1500,"id":"52b13d0b760ee36fd9077a02","iso_639_1":"de","vote_average":5.3125,"vote_count":1,"width":1000
+},{"aspect_ratio":0.67,"file_path":"/xToV0AHxDvb0ZvD9zyC58oGsNsE.jpg","height":1500,"id":"4ea6198c34f8633bdc00444f","iso_639_1":"es","vote_average":5.3125,"vote_count":1,"width":1000
+},{"aspect_ratio":0.7,"file_path":"/oyasHW7yujwNqMjaDNWksevIbzR.jpg","height":855,"id":"529600b7760ee3684c09e91b","iso_639_1":"da","vote_average":"5.24553571428571","vote_count":1,"width":600
+},{"aspect_ratio":0.71,"file_path":"/6VNAcyxXUra5XRD5DHuSwuM9sae.jpg","height":566,"id":"504b79d9760ee377e8000899","iso_639_1":"hu","vote_average":"5.24542124542125","vote_count":2,"width":400
+},{"aspect_ratio":0.71,"file_path":"/eSXFc1AQn7BeZIOTEJxu6tVJHAh.jpg","height":1448,"id":"501571e7760ee34231000828","iso_639_1":"it","vote_average":"5.24542124542125","vote_count":2,"width":1021
+},{"aspect_ratio":0.67,"file_path":"/6puayvkXFhRljI0ZVQbcL8UaoyA.jpg","height":1500,"id":"4ea6198434f8633bdc004447","iso_639_1":"de","vote_average":"5.24531024531024","vote_count":3,"width":1000
+},{"aspect_ratio":0.67,"file_path":"/acFWUsTNu2a5tGk1i4QUYOOcfXc.jpg","height":987,"id":"4ee3c4745e73d66c190042ce","iso_639_1":"fr","vote_average":"5.21611721611722","vote_count":2,"width":666
+},{"aspect_ratio":0.67,"file_path":"/lkwIqyR3zhdh9CuBSBEQ70xm30Q.jpg","height":1500,"id":"4ea6199034f8633bdc004453","iso_639_1":"de","vote_average":"5.20923520923521","vote_count":3,"width":1000
+},{"aspect_ratio":0.7,"file_path":"/d4cLgVWTQS4amqIFVgTPpvsvnO8.jpg","height":714,"id":"4ea619a634f8633bdc00446b","iso_639_1":"it","vote_average":"5.18759018759019","vote_count":3,"width":500
+},{"aspect_ratio":0.68,"file_path":"/aEuqGUIaMYT9ikG2yQLh7jCnLd8.jpg","height":1638,"id":"4f60f4f9760ee3302c0002c0","iso_639_1":"en","vote_average":"5.18037518037518","vote_count":3,"width":1106
+},{"aspect_ratio":0.7,"file_path":"/kz81GMuYisezUXoIANz6PdbsP5d.jpg","height":720,"id":"4ea619a234f8633bdc004467","iso_639_1":"fr","vote_average":"5.17857142857143","vote_count":1,"width":507
+},{"aspect_ratio":0.71,"file_path":"/d9M7hz9jxROw1dXCUfIfap3rKpR.jpg","height":1437,"id":"50156f81760ee346f4004112","iso_639_1":"it","vote_average":"5.17113095238095","vote_count":1,"width":1023
+},{"aspect_ratio":0.67,"file_path":"/jsLFtQYkOMKFfSgwVi0CMld5xdh.jpg","height":1500,"id":"4ea6198234f8633bdc004445","iso_639_1":"en","vote_average":"5.15151515151515","vote_count":3,"width":1000
+},{"aspect_ratio":0.68,"file_path":"/zvASxVn9fbLMzh7twrPGnQK8SjX.jpg","height":1211,"id":"4ea6199a34f8633bdc00445d","iso_639_1":"pt","vote_average":0.0,"vote_count":0,"width":824
+},{"aspect_ratio":0.75,"file_path":"/doL4YdrpUGEBQb8rwIKkdrbURmW.jpg","height":800,"id":"4ea6199b34f8633bdc00445f","iso_639_1":"fr","vote_average":0.0,"vote_count":0,"width":600
+},{"aspect_ratio":0.71,"file_path":"/3lR69ODgedDJnP7KT1KJjgyW1AA.jpg","height":1250,"id":"4ea6199f34f8633bdc004463","iso_639_1":"ru","vote_average":0.0,"vote_count":0,"width":884
+},{"aspect_ratio":0.68,"file_path":"/xibgJeoGDEjvmdXi8DfWNgjtNgQ.jpg","height":1211,"id":"4ef656ad760ee3048c002416","iso_639_1":"pt","vote_average":0.0,"vote_count":0,"width":824
+},{"aspect_ratio":0.69,"file_path":"/aHl57KvHcp038klBbXzhLlE3Suo.jpg","height":1301,"id":"50156d8219c2951a00006e4d","iso_639_1":"it","vote_average":0.0,"vote_count":0,"width":900
+},{"aspect_ratio":0.68,"file_path":"/fNecCqjyeJ1VogiBpBNpiGI0xw8.jpg","height":1028,"id":"52151400760ee36df819d9fe","iso_639_1":"fr","vote_average":0.0,"vote_count":0,"width":700
+},{"aspect_ratio":0.71,"file_path":"/2CgtnhDVbiSKnpMo5c4wrFFx5og.jpg","height":1080,"id":"4ea6199234f8633bdc004455","iso_639_1":"en","vote_average":0.0,"vote_count":0,"width":764
+},{"aspect_ratio":0.67,"file_path":"/9Het22ohcdcmVW4p9ArTNjXA0c0.jpg","height":1200,"id":"4ea6199d34f8633bdc004461","iso_639_1":"ru","vote_average":0.0,"vote_count":0,"width":800
+},{"aspect_ratio":0.68,"file_path":"/jIujjUAyf8Ifdp3rBxB4oXYqfpY.jpg","height":1638,"id":"50042cb819c295770900246f","iso_639_1":"he","vote_average":0.0,"vote_count":0,"width":1106
+},{"aspect_ratio":0.68,"file_path":"/2CekYwZPT1XdBZZvbHbejL8dJc7.jpg","height":1500,"id":"4ea6198134f8633bdc004443","iso_639_1":"en","vote_average":0.0,"vote_count":0,"width":1013
+},{"aspect_ratio":0.67,"file_path":"/mJmLzl80xBbXHY6643ad9psVsoR.jpg","height":1000,"id":"4ea619a134f8633bdc004465","iso_639_1":"en","vote_average":0.0,"vote_count":0,"width":667
+},{"aspect_ratio":0.67,"file_path":"/4Yt6NfbfRaNNUoJ3VFPHhyGRfHF.jpg","height":1500,"id":"4ea6198634f8633bdc004449","iso_639_1":"en","vote_average":0.0,"vote_count":0,"width":1000
+},{"aspect_ratio":0.67,"file_path":"/6gzmHfiB5iuwcogN3ElvF9saT2k.jpg","height":1500,"id":"4ea6198734f8633bdc00444b","iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1000
+},{"aspect_ratio":0.67,"file_path":"/fNE34RjYHaNYRcvxURTuTJZYrKO.jpg","height":1500,"id":"4ea6198a34f8633bdc00444d","iso_639_1":"es","vote_average":0.0,"vote_count":0,"width":1000
+},{"aspect_ratio":0.67,"file_path":"/5CWULGfT6SCdXsj8dBYE5u440P4.jpg","height":1500,"id":"4ea6198e34f8633bdc004451","iso_639_1":"en","vote_average":0.0,"vote_count":0,"width":1000
+},{"aspect_ratio":0.71,"file_path":"/d9M7hz9jxROw1dXCUfIfap3rKpR.jpg","height":1437,"id":"50156f27760ee36211003268","iso_639_1":"it","vote_average":0.0,"vote_count":0,"width":1023
+}]
+}
+}

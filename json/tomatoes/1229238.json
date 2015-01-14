@@ -1,0 +1,101 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 770863873,
+  "title": "Mission: Impossible Ghost Protocol",
+  "year": 2011,
+  "genres": [
+    "Mystery & Suspense",
+    "Action & Adventure"
+  ],
+  "mpaa_rating": "PG-13",
+  "runtime": 132,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2011-12-21",
+    "dvd": "2012-04-17"
+  },
+  "ratings": {
+    "critics_rating": "Certified Fresh",
+    "critics_score": 93,
+    "audience_rating": "Upright",
+    "audience_score": 76
+  },
+  "synopsis": "This is not just another mission. The IMF is shut down when it's implicated in a global terrorist bombing plot. Ghost Protocol is initiated and Ethan Hunt and his rogue new team must go undercover to clear their organization's name. No help, no contact, off the grid. You have never seen a mission grittier and more intense than this. -- (C) Paramount",
+  "posters": {
+    "thumbnail": "http://content6.flixster.com/movie/11/16/91/11169152_tmb.jpg",
+    "profile": "http://content6.flixster.com/movie/11/16/91/11169152_tmb.jpg",
+    "detailed": "http://content6.flixster.com/movie/11/16/91/11169152_tmb.jpg",
+    "original": "http://content6.flixster.com/movie/11/16/91/11169152_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Tom Cruise",
+      "id": "162652763",
+      "characters": ["Ethan Hunt"]
+    },
+    {
+      "name": "Simon Pegg",
+      "id": "162684057",
+      "characters": ["Benji"]
+    },
+    {
+      "name": "Jeremy Renner",
+      "id": "309973652",
+      "characters": ["Brandt"]
+    },
+    {
+      "name": "Ving Rhames",
+      "id": "162693220",
+      "characters": ["Luther Stickell"]
+    },
+    {
+      "name": "Vladimir Mashkov",
+      "id": "770683572",
+      "characters": ["Sidorov"]
+    }
+  ],
+  "abridged_directors": [{"name": "Brad Bird"}],
+  "studio": "Paramount Studios",
+  "alternate_ids": {"imdb": "1229238"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=1229238",
+    "alternate": "http://www.rottentomatoes.com/m/mission_impossible_ghost_protocol/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/770863873/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/770863873/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/770863873/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/770863873.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

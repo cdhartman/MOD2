@@ -1,0 +1,80 @@
+{"adult":false,"backdrop_path":"/gCdJYpX1TXGEZrEJl0mMTTpinMh.jpg","belongs_to_collection":{"id":31562,"name":"The Bourne Collection","poster_path":"/3WnP5pHjdinG6xOKSMIjhtgjfGq.jpg","backdrop_path":"/vA5xMglyZv7yzDTj1qUTU4OvelV.jpg"
+},"budget":130000000,"genres":[{"id":28,"name":"Action"
+},{"id":53,"name":"Thriller"
+}],"homepage":"","id":49040,"imdb_id":"tt1194173","original_title":"The Bourne Legacy","overview":"The fourth installment of the highly successful Bourne series sidelines main character Jason Bourne in order to focus on a fellow estranged assassin Aaron Cross (Jeremy Renner). The story centers on new CIA operative, Aaron Cross as he experiences life-or-death stakes that have been triggered by the previous actions of Jason Bourne. Edward Norton and Rachel Weisz co-star, with Joan Allen and Albert Finney reprising their roles from the previous films.","popularity":"2.65514507257695","poster_path":"/gEtaeMKtGbQUBxyRUHqMgslMV9a.jpg","production_companies":[{"name":"Captivate Entertainment","id":25716
+},{"name":"Universal Pictures","id":33
+},{"name":"Relativity Media","id":7295
+},{"name":"Kennedy/Marshall Company, The","id":7383
+},{"name":"Dentsu","id":6452
+}],"production_countries":[{"iso_3166_1":"US","name":"United States of America"
+}],"release_date":"2012-08-10","revenue":276572938,"runtime":120,"spoken_languages":[{"iso_639_1":"en","name":"English"
+},{"iso_639_1":"ru","name":"Pусский"
+}],"status":"Released","tagline":"There Was Never Just One","title":"The Bourne Legacy","vote_average":5.8,"vote_count":1364,"images":{"backdrops":[{"aspect_ratio":1.78,"file_path":"/gCdJYpX1TXGEZrEJl0mMTTpinMh.jpg","height":1080,"iso_639_1":null,"vote_average":"5.48654244306418","vote_count":6,"width":1920
+},{"aspect_ratio":1.78,"file_path":"/mYpJGQzP7vifoXgmU9KIMejbsPe.jpg","height":1080,"iso_639_1":null,"vote_average":"5.39445628997868","vote_count":4,"width":1920
+},{"aspect_ratio":1.78,"file_path":"/xX3FLdfmNyQ391NQwr771cdKxZW.jpg","height":720,"iso_639_1":null,"vote_average":"5.37777777777778","vote_count":12,"width":1280
+},{"aspect_ratio":1.78,"file_path":"/xjhkJbdD3WsmeBxTYaV2pdFsW68.jpg","height":1080,"iso_639_1":null,"vote_average":"5.33968253968254","vote_count":12,"width":1920
+},{"aspect_ratio":1.78,"file_path":"/1rJaWlkqcGTKY9QfEtWfwqxCkwF.jpg","height":720,"iso_639_1":null,"vote_average":"5.28205128205128","vote_count":2,"width":1280
+},{"aspect_ratio":1.78,"file_path":"/cVt7J2CXSMQqM67PgsnceMcrE0J.jpg","height":1080,"iso_639_1":null,"vote_average":"5.20833333333333","vote_count":1,"width":1920
+},{"aspect_ratio":1.78,"file_path":"/i9ZdVciiSlHr8nKSR9bNSHNUBGP.jpg","height":1080,"iso_639_1":null,"vote_average":"5.05772005772006","vote_count":3,"width":1920
+},{"aspect_ratio":1.78,"file_path":"/dLXJo2PPK7YOMXNWVtHBe9tAQer.jpg","height":1080,"iso_639_1":null,"vote_average":"5.03401360544218","vote_count":7,"width":1920
+},{"aspect_ratio":1.78,"file_path":"/1qIcZEdTkgsr4dKYgUaxoC9UutS.jpg","height":1080,"iso_639_1":null,"vote_average":"5.00355366027008","vote_count":4,"width":1920
+},{"aspect_ratio":1.78,"file_path":"/lMZF6URjVaOrN7CGdA971yi19hq.jpg","height":720,"iso_639_1":null,"vote_average":"4.95918367346939","vote_count":7,"width":1280
+},{"aspect_ratio":1.78,"file_path":"/llWeI7UYv0VT4GS1JKarxuXRwny.jpg","height":720,"iso_639_1":null,"vote_average":"4.95918367346939","vote_count":7,"width":1280
+},{"aspect_ratio":1.78,"file_path":"/mc8AzSf8B8P039JN80SqfhUtbv8.jpg","height":720,"iso_639_1":null,"vote_average":"4.95918367346939","vote_count":7,"width":1280
+},{"aspect_ratio":1.78,"file_path":"/5uLuwWzTsulLK5StbU9Ac6qs3WF.jpg","height":720,"iso_639_1":null,"vote_average":"4.95238095238095","vote_count":7,"width":1280
+},{"aspect_ratio":1.78,"file_path":"/tJpx4ACONQBDDUfpg66kZc47DOS.jpg","height":720,"iso_639_1":null,"vote_average":"4.92517006802721","vote_count":7,"width":1280
+},{"aspect_ratio":1.78,"file_path":"/bt7K0TXYekgmY2YjLolZpQTI0TK.jpg","height":720,"iso_639_1":null,"vote_average":4.9027498323273,"vote_count":8,"width":1280
+},{"aspect_ratio":1.78,"file_path":"/k3luhH5SRRmRg5lzWx3te0eaeCx.jpg","height":720,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1280
+},{"aspect_ratio":1.78,"file_path":"/iYpwGAFBgZL6PHbMWsuYhJ9Cc84.jpg","height":720,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1280
+}],"posters":[{"aspect_ratio":0.67,"file_path":"/gEtaeMKtGbQUBxyRUHqMgslMV9a.jpg","height":1500,"id":"50b70e30760ee315700007bf","iso_639_1":"en","vote_average":5.4485049833887,"vote_count":23,"width":1000
+},{"aspect_ratio":0.71,"file_path":"/ldJ1N8oJMohZnv2u6MhT7wX3Yic.jpg","height":2175,"id":"50c1ca4b19c295534d00075a","iso_639_1":"hu","vote_average":"5.38461538461539","vote_count":2,"width":1535
+},{"aspect_ratio":0.67,"file_path":"/66na1ha5ejYGsNXbd5ShzwdCMwr.jpg","height":1200,"id":"5173f0a0760ee3470c405cba","iso_639_1":"en","vote_average":"5.36922015182885","vote_count":6,"width":800
+},{"aspect_ratio":0.67,"file_path":"/qIJonjlSzU6LCJklS6CH3p5vLcQ.jpg","height":1500,"id":"514dbbac19c29561321aebb8","iso_639_1":"en","vote_average":"5.32407407407407","vote_count":9,"width":1000
+},{"aspect_ratio":0.67,"file_path":"/t5tU0xsFoEujcYcT17lPkTAREEN.jpg","height":2100,"id":"5248790919c295382531ca5a","iso_639_1":"en","vote_average":"5.31746031746032","vote_count":3,"width":1400
+},{"aspect_ratio":0.7,"file_path":"/vUMtXQ8puCUsJ56d2hCpkJkAQMB.jpg","height":3143,"id":"50d32a97760ee32b340ef50a","iso_639_1":"es","vote_average":5.3125,"vote_count":1,"width":2200
+},{"aspect_ratio":0.67,"file_path":"/h9ZFVWXd3BCtY1ZkOZHKY5qcODE.jpg","height":2100,"id":"5248793119c295381f3208a9","iso_639_1":"de","vote_average":5.3125,"vote_count":1,"width":1400
+},{"aspect_ratio":0.67,"file_path":"/2OGrd8cR3DkyKRX9VQP0pI9FQJn.jpg","height":1500,"id":"51290344760ee3512b20abb9","iso_639_1":"en","vote_average":"5.30812324929972","vote_count":5,"width":1000
+},{"aspect_ratio":0.67,"file_path":"/9zvSSLf2xpiV79mEDSfaHSvjQmd.jpg","height":1500,"id":"50f042ef19c29520cf357722","iso_639_1":"de","vote_average":"5.26785714285714","vote_count":1,"width":1000
+},{"aspect_ratio":0.7,"file_path":"/iio8L5Iv07tPMKo33DNYesuiuPd.jpg","height":1147,"id":"5277c1d1760ee36b95120a03","iso_639_1":"da","vote_average":"5.25297619047619","vote_count":1,"width":800
+},{"aspect_ratio":0.67,"file_path":"/aVd03scP2vG08d8CMKqxCEpLC3d.jpg","height":1500,"id":"50bd2217760ee37659000438","iso_639_1":"en","vote_average":"5.25132275132275","vote_count":9,"width":1000
+},{"aspect_ratio":0.67,"file_path":"/tVG4Zn8FmPzhSFhNrxbTQ5hoLu7.jpg","height":1500,"id":"50b7f5c619c2954347000926","iso_639_1":"en","vote_average":"5.22633744855967","vote_count":18,"width":1000
+},{"aspect_ratio":0.63,"file_path":"/sCjBwfzwJP0qGTYxQdUKgZe28AV.jpg","height":1500,"id":"4f331010760ee35239000026","iso_639_1":"en","vote_average":"5.21367521367521","vote_count":15,"width":947
+},{"aspect_ratio":0.67,"file_path":"/AnKnLsybNhnibvA3mba1ct9Nnb6.jpg","height":1200,"id":"5174734919c2954dfd08791b","iso_639_1":"en","vote_average":"5.19047619047619","vote_count":7,"width":800
+},{"aspect_ratio":0.64,"file_path":"/2iNSRlOoJra9LDJWXNFEGmniKrr.jpg","height":1500,"id":"50b81f4d760ee36e02000bc2","iso_639_1":"en","vote_average":"5.18367346938776","vote_count":7,"width":966
+},{"aspect_ratio":0.67,"file_path":"/qgAp96TRVhVFQ25ODAciCVRL0q0.jpg","height":1200,"id":"5172e6e019c295261035cc08","iso_639_1":"en","vote_average":"5.18037518037518","vote_count":3,"width":800
+},{"aspect_ratio":0.67,"file_path":"/dulGeTv4d5qwF0lSxQc74nX7ksE.jpg","height":1200,"id":"5051426419c2955eb0000a9a","iso_639_1":"en","vote_average":"5.17179023508137","vote_count":16,"width":800
+},{"aspect_ratio":0.71,"file_path":"/81OunHpfSYCIZ1KfJqFzGEeJHoL.jpg","height":849,"id":"534a33f30e0a2640cb0013c6","iso_639_1":"en","vote_average":"5.17113095238095","vote_count":1,"width":600
+},{"aspect_ratio":0.63,"file_path":"/8Y0ewerQTzpqJd51FpZabhsKl8L.jpg","height":1500,"id":"502df7c8760ee321c7003224","iso_639_1":"","vote_average":"5.17113095238095","vote_count":1,"width":947
+},{"aspect_ratio":0.67,"file_path":"/5EMiqn4mEOQ7hxNeMeL8450HEi2.jpg","height":1500,"id":"5051421a19c2955c89000a65","iso_639_1":"en","vote_average":"5.15761234071093","vote_count":8,"width":1000
+},{"aspect_ratio":0.68,"file_path":"/hqBTpfRicEi0J9Xs4NWy0k8fQiI.jpg","height":1190,"id":"50281b8a760ee3645b00607b","iso_639_1":"pt","vote_average":"5.12987012987013","vote_count":3,"width":804
+},{"aspect_ratio":0.71,"file_path":"/agp9y3PqSVEFEi9Cr36b82xkfdd.jpg","height":849,"id":"534a33fb0e0a2640c5001285","iso_639_1":"en","vote_average":"5.12820512820513","vote_count":2,"width":600
+},{"aspect_ratio":0.75,"file_path":"/eJAl2OYhVu5Qv3ygnRiUO1H4kCk.jpg","height":800,"id":"534a34030e0a2640c20011af","iso_639_1":"en","vote_average":"5.12087912087912","vote_count":2,"width":600
+},{"aspect_ratio":0.67,"file_path":"/xvWDflZosF9NaIfmYdd9OjXVbUS.jpg","height":900,"id":"534a340a0e0a2629dd0002e4","iso_639_1":"en","vote_average":"5.12087912087912","vote_count":2,"width":600
+},{"aspect_ratio":0.71,"file_path":"/zrGRv2r2MqILOE5evRSlDDwZrAk.jpg","height":849,"id":"534a340c0e0a2640c20011bb","iso_639_1":"en","vote_average":"5.12087912087912","vote_count":2,"width":600
+},{"aspect_ratio":0.67,"file_path":"/20mDt01k2KiuOTynRwfi8ZADUl0.jpg","height":901,"id":"534a34120e0a2640c5001299","iso_639_1":"en","vote_average":"5.12087912087912","vote_count":2,"width":600
+},{"aspect_ratio":0.66,"file_path":"/qFWgCVNludz8NiWoZnVC3ePrCCa.jpg","height":861,"id":"534a34050e0a2640cb0013d7","iso_639_1":"en","vote_average":"5.12087912087912","vote_count":2,"width":570
+},{"aspect_ratio":0.67,"file_path":"/bXtFtXdybWPFuzESZV7bH66DcY4.jpg","height":1187,"id":"50281bbf760ee366fe0030f5","iso_639_1":"pt","vote_average":"5.10622710622711","vote_count":2,"width":800
+},{"aspect_ratio":0.68,"file_path":"/e0lf4n2XOwlxsd3CFp4htca1XyZ.jpg","height":1184,"id":"506b2794760ee309870021e1","iso_639_1":"ru","vote_average":"5.10622710622711","vote_count":2,"width":800
+},{"aspect_ratio":0.67,"file_path":"/2UD31KHLn2wXZUzJGZyHYErYrG8.jpg","height":1080,"id":"50ba2260760ee344cd0000bd","iso_639_1":"fr","vote_average":"5.10622710622711","vote_count":2,"width":720
+},{"aspect_ratio":0.69,"file_path":"/dvjU2tafCkqKHYLCQ6skx7D01Kd.jpg","height":966,"id":"503f9c1b19c2954a17006db7","iso_639_1":"es","vote_average":"5.06493506493507","vote_count":3,"width":670
+},{"aspect_ratio":0.67,"file_path":"/3GxsnJOFM8LNJcbor6l7lRF6U4H.jpg","height":1195,"id":"506b27c5760ee320b80000cd","iso_639_1":"ru","vote_average":"5.06302521008403","vote_count":5,"width":800
+},{"aspect_ratio":0.68,"file_path":"/jzplPdDnqEUTBt8OS2s8y09JBOI.jpg","height":960,"id":"500dd39119c295580d000f1e","iso_639_1":"en","vote_average":"5.01930501930502","vote_count":11,"width":648
+},{"aspect_ratio":0.7,"file_path":"/uOzeFR6xosbMxY2YOPBnCGIbOCr.jpg","height":1600,"id":"503f9c0419c2954bf7000009","iso_639_1":"es","vote_average":"5.01006036217304","vote_count":8,"width":1120
+},{"aspect_ratio":0.75,"file_path":"/4tHla63FV5ZRHSfPTQxOt2uHUYd.jpg","height":800,"id":"500dd3c719c29538a8000f8a","iso_639_1":"fr","vote_average":"4.97584541062802","vote_count":6,"width":600
+},{"aspect_ratio":0.67,"file_path":"/tLmoFgo6Ju1wZGcsMMjnflYdWsA.jpg","height":1500,"id":"501d0645760ee31e8d0035c7","iso_639_1":"cs","vote_average":"4.94557823129252","vote_count":7,"width":1000
+},{"aspect_ratio":0.75,"file_path":"/eMue72YMThl7AKRVi0FXT31MGVz.jpg","height":800,"id":"4f365e1e19c2953c5900123f","iso_639_1":"fr","vote_average":"4.92997198879552","vote_count":5,"width":600
+},{"aspect_ratio":0.67,"file_path":"/RBPXWN0hHFFWkCDQYaCBvr6KIX.jpg","height":600,"id":"502deee8760ee35c5100d76b","iso_639_1":"hu","vote_average":"4.92997198879552","vote_count":5,"width":400
+},{"aspect_ratio":0.65,"file_path":"/euhmScF75VcLvzg8niuDKFxJxhH.jpg","height":834,"id":"4f308147760ee348830004d7","iso_639_1":"en","vote_average":"4.92277992277992","vote_count":11,"width":546
+},{"aspect_ratio":0.63,"file_path":"/yZrpf9nbyJtrtUxTPjvv81YcRNJ.jpg","height":1000,"id":"50337c9c760ee32148005727","iso_639_1":"he","vote_average":"4.88262910798122","vote_count":8,"width":632
+},{"aspect_ratio":0.68,"file_path":"/iwVVBsNuVnWb0C73L8ZQqBiRAuU.jpg","height":1000,"id":"4f8a9749760ee31e0c005468","iso_639_1":"de","vote_average":"4.86250838363514","vote_count":8,"width":675
+},{"aspect_ratio":0.63,"file_path":"/u7GpfY1Jcv1g4yYHCwsgUvFkT0P.jpg","height":1000,"id":"50337adb760ee3349e0055fc","iso_639_1":"he","vote_average":"4.81632653061224","vote_count":7,"width":632
+},{"aspect_ratio":0.71,"file_path":"/jEldcpuY8ph2p0qPgIMxmj117MN.jpg","height":566,"id":"50fba2c719c2954aa219de52","iso_639_1":"hu","vote_average":0.0,"vote_count":0,"width":400
+},{"aspect_ratio":0.67,"file_path":"/4lwsJukXA6J2EV8pAKBHmbKwZJY.jpg","height":1500,"id":"5112caf619c2953c359a8023","iso_639_1":"it","vote_average":0.0,"vote_count":0,"width":1000
+},{"aspect_ratio":0.67,"file_path":"/5S02cJOvmqSB0IyKaE03IsP3ahA.jpg","height":1500,"id":"5113bb8a19c295488f750ce7","iso_639_1":"fr","vote_average":0.0,"vote_count":0,"width":1000
+},{"aspect_ratio":0.7,"file_path":"/r7VwvhjJInJEE1V3OqpWIPxfSDb.jpg","height":788,"id":"5117a0cd19c29526aa07dc93","iso_639_1":"fi","vote_average":0.0,"vote_count":0,"width":552
+},{"aspect_ratio":0.67,"file_path":"/3ssOIdpePto3idnicNAJEW5DW0b.jpg","height":2100,"id":"51634a5d760ee3265d03f5ef","iso_639_1":"it","vote_average":0.0,"vote_count":0,"width":1400
+},{"aspect_ratio":0.74,"file_path":"/esmobN9M32yBARdEI8EsFCZgDGL.jpg","height":2649,"id":"52317d7219c29536e40ded7e","iso_639_1":"fr","vote_average":0.0,"vote_count":0,"width":1950
+},{"aspect_ratio":0.71,"file_path":"/cnhS9H1y9mZPNwKWWyKg3hovwjD.jpg","height":1304,"id":"50deebe719c295304e37cfb2","iso_639_1":"de","vote_average":0.0,"vote_count":0,"width":922
+}]
+}
+}

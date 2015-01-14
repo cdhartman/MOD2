@@ -1,0 +1,102 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 771190618,
+  "title": "The Hunger Games",
+  "year": 2012,
+  "genres": [
+    "Drama",
+    "Mystery & Suspense",
+    "Science Fiction & Fantasy"
+  ],
+  "mpaa_rating": "PG-13",
+  "runtime": 142,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2012-03-23",
+    "dvd": "2012-08-18"
+  },
+  "ratings": {
+    "critics_rating": "Certified Fresh",
+    "critics_score": 84,
+    "audience_rating": "Upright",
+    "audience_score": 81
+  },
+  "synopsis": "Every year in the ruins of what was once North America, the evil Capitol of the nation of Panem forces each of its twelve districts to send a teenage boy and girl to compete in the Hunger Games. A twisted punishment for a past uprising and an ongoing government intimidation tactic, The Hunger Games are a nationally televised event in which \"Tributes\" must fight with one another until one survivor remains. Pitted against highly-trained Tributes who have prepared for these Games their entire lives, Katniss is forced to rely upon her sharp instincts as well as the mentorship of drunken former victor Haymitch Abernathy. If she's ever to return home to District 12, Katniss must make impossible choices in the arena that weigh survival against humanity and life against love. -- (C) Lionsgate",
+  "posters": {
+    "thumbnail": "http://content9.flixster.com/movie/11/17/36/11173667_tmb.jpg",
+    "profile": "http://content9.flixster.com/movie/11/17/36/11173667_tmb.jpg",
+    "detailed": "http://content9.flixster.com/movie/11/17/36/11173667_tmb.jpg",
+    "original": "http://content9.flixster.com/movie/11/17/36/11173667_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Jennifer Lawrence",
+      "id": "770800260",
+      "characters": ["Katniss Everdeen"]
+    },
+    {
+      "name": "Josh Hutcherson",
+      "id": "162654356",
+      "characters": ["Peeta Mellark"]
+    },
+    {
+      "name": "Liam Hemsworth",
+      "id": "770833479",
+      "characters": ["Gale Hawthorne"]
+    },
+    {
+      "name": "Woody Harrelson",
+      "id": "162654250",
+      "characters": ["Haymitch Abernathy"]
+    },
+    {
+      "name": "Elizabeth Banks",
+      "id": "162653584",
+      "characters": ["Effie Trinket"]
+    }
+  ],
+  "abridged_directors": [{"name": "Gary Ross"}],
+  "studio": "Lionsgate",
+  "alternate_ids": {"imdb": "1392170"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=1392170",
+    "alternate": "http://www.rottentomatoes.com/m/the_hunger_games/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771190618/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771190618/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771190618/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/771190618.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

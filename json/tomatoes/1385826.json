@@ -1,0 +1,101 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 770810295,
+  "title": "The Adjustment Bureau",
+  "year": 2011,
+  "genres": [
+    "Science Fiction & Fantasy",
+    "Romance"
+  ],
+  "mpaa_rating": "PG-13",
+  "runtime": 99,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2011-03-04",
+    "dvd": "2011-06-21"
+  },
+  "ratings": {
+    "critics_rating": "Fresh",
+    "critics_score": 72,
+    "audience_rating": "Upright",
+    "audience_score": 67
+  },
+  "synopsis": "On the brink of winning a seat in the U.S. Senate, ambitious politician David Norris (Damon) meets beautiful contemporary ballet dancer Elise Sellas (Emily Blunt)--a woman like none he's ever known. But just as he realizes he's falling for her, mysterious men conspire to keep the two apart. David learns he is up against the agents of Fate itself--the men of The Adjustment Bureau--who will do everything in their considerable power to prevent David and Elise from being together. In the face of overwhelming odds, he must either let her go and accept a predetermined path...or risk everything to defy Fate and be with her. Based on a short story by Philip K. Dick. -- (C) Universal Pictures",
+  "posters": {
+    "thumbnail": "http://content9.flixster.com/movie/11/17/65/11176587_tmb.jpg",
+    "profile": "http://content9.flixster.com/movie/11/17/65/11176587_tmb.jpg",
+    "detailed": "http://content9.flixster.com/movie/11/17/65/11176587_tmb.jpg",
+    "original": "http://content9.flixster.com/movie/11/17/65/11176587_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Matt Damon",
+      "id": "162653499",
+      "characters": ["David Norris"]
+    },
+    {
+      "name": "Emily Blunt",
+      "id": "162685827",
+      "characters": ["Elise Sellas"]
+    },
+    {
+      "name": "Anthony Mackie",
+      "id": "162653786",
+      "characters": ["Harry Mitchell"]
+    },
+    {
+      "name": "John Slattery",
+      "id": "364618219",
+      "characters": ["Richardson"]
+    },
+    {
+      "name": "Michael Kelly",
+      "id": "162654310",
+      "characters": ["Charlie Traynor"]
+    }
+  ],
+  "abridged_directors": [{"name": "George Nolfi"}],
+  "studio": "Universal Pictures",
+  "alternate_ids": {"imdb": "1385826"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=1385826",
+    "alternate": "http://www.rottentomatoes.com/m/adjustment_bureau/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/770810295/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/770810295/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/770810295/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/770810295.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

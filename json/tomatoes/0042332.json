@@ -1,0 +1,108 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 9371,
+  "title": "Cinderella",
+  "year": 1950,
+  "genres": [
+    "Animation",
+    "Kids & Family",
+    "Classics",
+    "Science Fiction & Fantasy"
+  ],
+  "mpaa_rating": "G",
+  "runtime": 60,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "1950-02-15",
+    "dvd": "2005-10-04"
+  },
+  "ratings": {
+    "critics_rating": "Fresh",
+    "critics_score": 97,
+    "audience_rating": "Upright",
+    "audience_score": 80
+  },
+  "synopsis": "",
+  "posters": {
+    "thumbnail": "http://content9.flixster.com/movie/25/06/250619_tmb.jpg",
+    "profile": "http://content9.flixster.com/movie/25/06/250619_tmb.jpg",
+    "detailed": "http://content9.flixster.com/movie/25/06/250619_tmb.jpg",
+    "original": "http://content9.flixster.com/movie/25/06/250619_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Ilene Woods",
+      "id": "162655628",
+      "characters": ["Cinderella"]
+    },
+    {
+      "name": "Eleanor Audley",
+      "id": "764948359",
+      "characters": [
+        "Lady Tremaine",
+        "Stepmother"
+      ]
+    },
+    {
+      "name": "Verna Felton",
+      "id": "440692442",
+      "characters": ["Fairy Godmother"]
+    },
+    {
+      "name": "Claire Du Brey",
+      "id": "770716788"
+    },
+    {
+      "name": "Helene Stanley",
+      "id": "770715524",
+      "characters": ["Live-action model Cinderella"]
+    }
+  ],
+  "abridged_directors": [
+    {"name": "Hamilton Luske"},
+    {"name": "Wilfred Jackson"}
+  ],
+  "studio": "RKO Radio Pictures",
+  "alternate_ids": {"imdb": "0042332"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=0042332",
+    "alternate": "http://www.rottentomatoes.com/m/1004186-cinderella/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/9371/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/9371/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/9371/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/9371.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

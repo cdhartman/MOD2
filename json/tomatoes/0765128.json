@@ -1,0 +1,89 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 770805763,
+  "title": "Oceans (Disneynature's Oceans)",
+  "year": 2010,
+  "genres": [
+    "Documentary",
+    "Drama"
+  ],
+  "mpaa_rating": "G",
+  "runtime": 103,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2010-04-22",
+    "dvd": "2010-10-19"
+  },
+  "ratings": {
+    "critics_rating": "Certified Fresh",
+    "critics_score": 81,
+    "audience_rating": "Upright",
+    "audience_score": 74
+  },
+  "synopsis": "Winged Migration co-directors Jacques Cluzaud and Jacques Perrin re-team for this documentary produced for Walt Disney Studios' Disneynature banner and exploring the many mysteries of our planet's oceans. Almost three-quarters of the earth's surface is covered by oceans, yet strangely we seem to know more about deep space than the world of the sea. There's no question that the ocean has played a crucial role in the history and sustenance of humankind, but what secrets does the underwater world hold? Follow filmmakers Cluzaud and Perrin beneath the ocean waves as they seek out the answer to this and explore the many dangers and mysteries of the deep. ~ Jason Buchanan, Rovi",
+  "posters": {
+    "thumbnail": "http://content9.flixster.com/movie/11/04/79/11047971_tmb.jpg",
+    "profile": "http://content9.flixster.com/movie/11/04/79/11047971_tmb.jpg",
+    "detailed": "http://content9.flixster.com/movie/11/04/79/11047971_tmb.jpg",
+    "original": "http://content9.flixster.com/movie/11/04/79/11047971_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Pierce Brosnan",
+      "id": "162663451",
+      "characters": ["Narrator"]
+    },
+    {
+      "name": "Lancelot Perrin",
+      "id": "771065095",
+      "characters": ["The Boy"]
+    }
+  ],
+  "abridged_directors": [
+    {"name": "Jacques Perrin"},
+    {"name": "Jacques Cluzaud"}
+  ],
+  "studio": "Disneynature",
+  "alternate_ids": {"imdb": "0765128"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=0765128",
+    "alternate": "http://www.rottentomatoes.com/m/10011268-oceans/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/770805763/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/770805763/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/770805763/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/770805763.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

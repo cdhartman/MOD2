@@ -1,0 +1,98 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 771320475,
+  "title": "Delivery Man",
+  "year": 2013,
+  "genres": ["Comedy"],
+  "mpaa_rating": "PG-13",
+  "runtime": 103,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2013-11-22",
+    "dvd": "2014-03-25"
+  },
+  "ratings": {
+    "critics_rating": "Rotten",
+    "critics_score": 38,
+    "audience_rating": "Spilled",
+    "audience_score": 49
+  },
+  "synopsis": "From DreamWorks Pictures comes \"Delivery Man\", the story of affable underachiever David Wozniak, whose mundane life is turned upside down when he finds out that he fathered 533 children through sperm donations he made twenty years earlier. In debt to the mob, rejected by his pregnant girlfriend, things couldn't look worse for David when he is hit with a lawsuit from 142 of the 533 twenty-somethings who want to know the identity of the donor. As David struggles to decide whether or not he should reveal his true identity, he embarks on a journey that leads him to discover not only his true self but the father he could become as well. (c) Disney",
+  "posters": {
+    "thumbnail": "http://content9.flixster.com/movie/11/17/45/11174563_tmb.jpg",
+    "profile": "http://content9.flixster.com/movie/11/17/45/11174563_tmb.jpg",
+    "detailed": "http://content9.flixster.com/movie/11/17/45/11174563_tmb.jpg",
+    "original": "http://content9.flixster.com/movie/11/17/45/11174563_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Vince Vaughn",
+      "id": "162652630",
+      "characters": ["David Wozniak"]
+    },
+    {
+      "name": "Chris Pratt",
+      "id": "770692298",
+      "characters": ["Brett"]
+    },
+    {
+      "name": "Cobie Smulders",
+      "id": "364659249",
+      "characters": ["Emma"]
+    },
+    {
+      "name": "Britt Robertson",
+      "id": "771392997",
+      "characters": ["Kristen"]
+    },
+    {
+      "name": "Dave Patten",
+      "id": "770790277",
+      "characters": ["Adam"]
+    }
+  ],
+  "abridged_directors": [{"name": "Ken Scott (V)"}],
+  "studio": "Walt Disney Pictures",
+  "alternate_ids": {"imdb": "2387559"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=2387559",
+    "alternate": "http://www.rottentomatoes.com/m/delivery_man/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771320475/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771320475/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771320475/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/771320475.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

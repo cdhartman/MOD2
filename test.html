@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" src="js/jquery/jquery-2.min.js"></script>
+	<script type="text/javascript" src="js/jquery/handlebars-v2.0.0.js"></script>
+	<script id="movieCarouselHandleBarsTemplate" type="text/x-handlebars-template"></script>
+	<script type='text/javascript'>
+		function loadHandlebarDataAndTemplate(dataSource, templateSource, templateTarget, targetContainer) {
+			$('#' + templateTarget).html('').load(templateSource);
+			$.getJSON( dataSource, function( json ) {
+				var source = $("#" + templateTarget).html();
+				var template = Handlebars.compile(source);
+				$('#' + targetContainer).html(template(json));
+			})
+			.fail(function() { alert('getJSON request failed! ' + dataSource); })
+		}
+	</script>
+</head>
+
+<body>
+	<div id="actionContainer" style="float: left;"></div>
+	<div id="comedyContainer" style="float: left;"></div>
+	<div id="dramaContainer" style="float: left;"></div>
+	<div id="familyContainer" style="float: left;"></div>
+</body>
+
+</html>
+
+<script type='text/javascript'>
+	loadHandlebarDataAndTemplate('json/categories/action.json','templates/carousel.txt', 'movieCarouselHandleBarsTemplate', 'actionContainer');
+	loadHandlebarDataAndTemplate('json/categories/comedy.json','templates/carousel.txt', 'movieCarouselHandleBarsTemplate', 'comedyContainer');
+	loadHandlebarDataAndTemplate('json/categories/drama.json','templates/carousel.txt', 'movieCarouselHandleBarsTemplate', 'dramaContainer');
+	loadHandlebarDataAndTemplate('json/categories/family.json','templates/carousel.txt', 'movieCarouselHandleBarsTemplate', 'familyContainer');
+</script>

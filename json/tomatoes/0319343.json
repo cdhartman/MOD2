@@ -1,0 +1,102 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 10029,
+  "title": "Elf",
+  "year": 2003,
+  "genres": [
+    "Kids & Family",
+    "Comedy",
+    "Special Interest"
+  ],
+  "mpaa_rating": "PG",
+  "runtime": 107,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2003-11-07",
+    "dvd": "2004-11-16"
+  },
+  "ratings": {
+    "critics_rating": "Certified Fresh",
+    "critics_score": 84,
+    "audience_rating": "Upright",
+    "audience_score": 78
+  },
+  "synopsis": "",
+  "posters": {
+    "thumbnail": "http://content6.flixster.com/movie/55/04/81/5504816_tmb.jpg",
+    "profile": "http://content6.flixster.com/movie/55/04/81/5504816_tmb.jpg",
+    "detailed": "http://content6.flixster.com/movie/55/04/81/5504816_tmb.jpg",
+    "original": "http://content6.flixster.com/movie/55/04/81/5504816_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Will Ferrell",
+      "id": "162652185",
+      "characters": ["Buddy"]
+    },
+    {
+      "name": "Edward Asner",
+      "id": "162659188",
+      "characters": ["Santa"]
+    },
+    {
+      "name": "Bob Newhart",
+      "id": "162655968",
+      "characters": ["Papa Elf"]
+    },
+    {
+      "name": "James Caan",
+      "id": "162656402",
+      "characters": ["Walter"]
+    },
+    {
+      "name": "Mary Steenburgen",
+      "id": "162663795",
+      "characters": ["Emily"]
+    }
+  ],
+  "abridged_directors": [{"name": "Jon Favreau"}],
+  "studio": "New Line Cinema",
+  "alternate_ids": {"imdb": "0319343"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=0319343",
+    "alternate": "http://www.rottentomatoes.com/m/elf/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/10029/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/10029/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/10029/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/10029.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

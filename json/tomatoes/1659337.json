@@ -1,0 +1,98 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 771230011,
+  "title": "The Perks of Being a Wallflower",
+  "year": 2012,
+  "genres": ["Drama"],
+  "mpaa_rating": "PG-13",
+  "runtime": 103,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2012-09-21",
+    "dvd": "2013-02-12"
+  },
+  "ratings": {
+    "critics_rating": "Certified Fresh",
+    "critics_score": 85,
+    "audience_rating": "Upright",
+    "audience_score": 89
+  },
+  "synopsis": "Based on the best-selling novel by Stephen Chbosky, The Perks of Being a Wallflower is a modern classic that captures the dizzying highs and crushing lows of growing up. Starring Logan Lerman, Emma Watson and Ezra Miller, The Perks of Being a Wallflower is a moving tale of love, loss, fear and hope-and the unforgettable friends that help us through life. -- (C) Summit",
+  "posters": {
+    "thumbnail": "http://content6.flixster.com/movie/11/16/86/11168692_tmb.jpg",
+    "profile": "http://content6.flixster.com/movie/11/16/86/11168692_tmb.jpg",
+    "detailed": "http://content6.flixster.com/movie/11/16/86/11168692_tmb.jpg",
+    "original": "http://content6.flixster.com/movie/11/16/86/11168692_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Logan Lerman",
+      "id": "341816559",
+      "characters": ["Charlie"]
+    },
+    {
+      "name": "Emma Watson",
+      "id": "162655378",
+      "characters": ["Sam"]
+    },
+    {
+      "name": "Ezra Miller",
+      "id": "770824298",
+      "characters": ["Patrick"]
+    },
+    {
+      "name": "Mae Whitman",
+      "id": "162654346",
+      "characters": ["Mary Elizabeth"]
+    },
+    {
+      "name": "Kate Walsh",
+      "id": "162652187",
+      "characters": ["Mother"]
+    }
+  ],
+  "abridged_directors": [{"name": "Stephen Chbosky"}],
+  "studio": "Lionsgate Films",
+  "alternate_ids": {"imdb": "1659337"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=1659337",
+    "alternate": "http://www.rottentomatoes.com/m/the_perks_of_being_a_wallflower/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771230011/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771230011/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771230011/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/771230011.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

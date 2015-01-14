@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>MOD Movie Detail Example</title>
+	<link href="favicon.ico" rel="shortcut icon" /> 
+	<script type='text/javascript' src='js/jquery/jquery-2.min.js'></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/clock.css">
+	<script type='text/javascript' src="js/bootstrap/bootstrap.js"></script>
+	<script type='text/javascript' src="js/getMovieDBCastData.js"></script>
+	<script type='text/javascript' src="js/getMovieDBInfoData.js"></script>
+	<script type='text/javascript' src="js/getMovieDBVideoData.js"></script>
+	<script type='text/javascript' src="js/getMovieTomatoesData.js"></script>
+	<script type='text/javascript' src="js/modExtras.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/cordova.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/android/video.js"></script>
+	<link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<script  type='text/javascript'>
+		// alert(navigator.userAgent);
+		if (isMobileDevice()) {
+			document.write('<link rel=stylesheet type=text/css href=css/mobile.css >');
+		} else {
+			document.write('<link rel=stylesheet type=text/css href=css/desktop.css >');
+		}
+		var id = getURLParameter('id', '');
+		function init(){  
+			document.addEventListener("deviceready", console.log('ready'), true);
+		}
+
+		function playVideo(vidUrl) 
+        {
+            window.plugins.videoPlayer.play(vidUrl);
+        }
+	</script>
+</head>
+
+<body onload="init();">
+<span id="header"></span>
+<div style="width: 100%">
+	<div id="poster" class="movieDetailPoster"><img src="images/misc/ajax-loader.gif" alt="ajax" /> Loading Movie Poster...</div>
+	<div class="movieDetailText">
+		<div>
+			<div class="movieDetailTitle transparent" style="width: 100%; padding: 6px; border-radius: 4px;" id="movieDetailTitle">
+				<div id="rating" class="rating"></div>
+			</div>
+			
+		</div>
+		
+		<p id="plot" class="plot"><img src="images/misc/ajax-loader.gif" alt="ajax" /> Loading Movie Plot...</p>
+		<p id="tagline" class="plot"><img src="images/misc/ajax-loader.gif" alt="ajax" /> Loading Movie Tagline...</p>
+		<hr /><br />
+		<div class="movieDetailBlockDouble" id="trailerPlay">
+			<a href="" id="trailerLink"><img src="images/misc/play.png" width="128" /></a>
+		</div>
+		
+		<div class="movieDetailBlock">
+			<span class="movieDetailBlockHeader">Details</span><br />
+			<span id="studio"></span>
+			<span id="detailsContent"></span>
+			<span id="budget"></span>
+			<span id="revenue"></span>
+			<span id="Tomatoes"></span>
+		</div>
+
+		<div class="movieDetailBlockDirector">
+			<span class="movieDetailBlockHeader">Director</span><br />
+			<span id="director"><img src="images/misc/ajax-loader.gif" alt="ajax" /> Loading Director...</span><br /><br />
+			
+			<span class="movieDetailBlockHeader" id="writerHeader">Writer</span><br />
+			<span id="writer"><img src="images/misc/ajax-loader.gif" alt="ajax" /> Loading Writers...</span>
+		</div>
+
+		<div class="movieDetailBlockCast" style="margin-right: 0;">
+			<span class="movieDetailBlockHeader" id="writerHeader">Additional Cast</span><br />
+			<span id="additionalCastContainer"><img src="images/misc/ajax-loader.gif" alt="ajax" /> Loading Additional Cast...</span>
+		</div>
+	</div>
+</div>
+<div class="clear"></div>
+<hr />
+<div style="width: 48%; float: left; margin-left: 10px;">
+	<div class="categoryTitle2" id="categoryTitleCast">Cast</div>
+	<div id="myCarouselCast" class="carousel slide"><img src="images/misc/ajax-loader.gif" alt="ajax" /> Loading Cast...</div>
+</div>
+
+<div style="width: 50%; float: left; min-height: 289px; margin: 0;">
+	<div class="categoryTitle2" id="categoryTitlePhotos">Photos</div>
+	<div id="myCarouselPhotos" class="carousel slide"><img src="images/misc/ajax-loader.gif" alt="ajax" /> Loading Movie Photos...</div>
+</div>
+<div class="clear"></div><br />
+
+</body>
+</html>
+<script type="text/javascript">
+	$('#header').html("<img src=\"images/misc/ajax-loader.gif\" alt=\"ajax\" /> Loading Header, please wait...").load('includes/header.html');
+	var id1 = getURLParameter('id1', ''), id2 = getURLParameter('id2', '');
+	getMovieDBVideoInfoData(id2);
+	var category = getURLParameter('c', '');
+	getMovieDBCastData(id2);
+	getMovieDBInfoData(id2);
+	getMovieTomatoesData(id1);
+</script>

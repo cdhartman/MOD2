@@ -1,0 +1,29 @@
+<div class="choose_slider">
+<div class="choose_slider_items">
+<ul id="mySlider1" class="carousel2">
+<li class="current_item"> <a href="movie.html?id1=tt1170358&id2=57158&c=action" class="moviePoster"> <img src="images/movies/carousel/hobbit-the-desolation-of-smaug.jpg" class="moviePosterWide" /> </a> </li>
+<li class="current_item"> <a href="movie.html?id1=tt1392170&id2=70160&c=action" class="moviePoster"> <img src="images/movies/carousel/hunger-games.jpg" class="moviePosterWide" /> </a> </li>
+<li class="current_item"> <a href="movie.html?id1=tt0790724&id2=75780&c=action" class="moviePoster"> <img src="images/movies/carousel/Jack-Reacher.jpg" class="moviePosterWide" /> </a> </li>
+<li class="current_item"> <a href="movie.html?id1=tt1663662&id2=68726&c=action" class="moviePoster"> <img src="images/movies/carousel/Pacific-Rim.jpg" class="moviePosterWide" /> </a> </li>
+<li class="current_item"> <a href="movie.html?id1=tt1981115&id2=76338&c=action" class="moviePoster"> <img src="images/movies/carousel/thor-the-dark-world-wallpaper.jpg" class="moviePosterWide" /> </a> </li>
+<li class="current_item"> <a href="movie.html?id1=tt1454468&id2=49047&c=drama" class="moviePoster">  <img src="images/movies/carousel/gravity.jpg" class="moviePosterWide" /> </a> </li>
+</ul>
+</div>
+</div>
+
+<script>
+	$(function() {
+		$("#mySlider1").AnimatedSlider( { 
+			prevButton: "#btn_prev1", 
+			 nextButton: "#btn_next1",
+			 visibleItems: 5,
+			 infiniteScroll: true,
+			 willChangeCallback: function(obj, item) { $("#statusText").text("Will change to " + item); },
+			 changedCallback: function(obj, item) { $("#statusText").text("Changed to " + item); }
+		  });
+	});
+	var slider = $("#mySlider1").data("AnimatedSlider");
+	window.setInterval(function() {
+		 slider.nextItem();
+		}, 9000);
+</script>

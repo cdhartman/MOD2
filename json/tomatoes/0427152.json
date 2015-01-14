@@ -1,0 +1,107 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 770807431,
+  "title": "Dinner for Schmucks",
+  "year": 2010,
+  "genres": ["Comedy"],
+  "mpaa_rating": "PG-13",
+  "runtime": 114,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2010-07-30",
+    "dvd": "2011-01-04"
+  },
+  "ratings": {
+    "critics_rating": "Rotten",
+    "critics_score": 42,
+    "audience_rating": "Spilled",
+    "audience_score": 43
+  },
+  "synopsis": "An ambitious executive accepts an invitation from his boss to attend a dinner party where high-powered professionals make fun of unsuspecting dimwits in this remake of Francis Veber's 1998 comedy The Dinner Game. Upwardly mobile executive Tim (Paul Rudd) has just landed his company an extremely wealthy Swiss client when his boss, Lance (Bruce Greenwood), invites him to an exclusive, yet unusually mean-spirited dinner party where each of the high-powered executives brings a guest to make fun of. Recognizing that his long-awaited promotion is finally within reach, Tim begins to have second thoughts about participating in the elaborate charade when his longtime girlfriend, Julie (Stephanie Szostak), the successful curator at a local art gallery, voices intense disdain for the idea. The following day, Tim is looking for a way out of the dinner when fate throws the perfect guest right in front of his luxury car. Barry (Steve Carell) is a sweet but dim-witted IRS agent with an unusual hobby: he creates elaborate dioramas featuring stuffed mice. His latest project is \"The Last Supper,\" and he's just put the finishing touches on a tiny mouse Jesus to set at the center of the table. Tim knows that Barry is his ticket to a big corner office on the seventh floor, but the closer the party looms, the more he realizes that his bumbling new acquaintance isn't just an idiot, but also is a magnet for chaos. ~ Rovi",
+  "posters": {
+    "thumbnail": "http://content9.flixster.com/movie/10/95/55/10955547_tmb.jpg",
+    "profile": "http://content9.flixster.com/movie/10/95/55/10955547_tmb.jpg",
+    "detailed": "http://content9.flixster.com/movie/10/95/55/10955547_tmb.jpg",
+    "original": "http://content9.flixster.com/movie/10/95/55/10955547_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Steve Carell",
+      "id": "162652665",
+      "characters": [
+        "Barry",
+        "Barry Speck"
+      ]
+    },
+    {
+      "name": "Paul Rudd",
+      "id": "162653309",
+      "characters": [
+        "Tim",
+        "Tim Conrad"
+      ]
+    },
+    {
+      "name": "Zach Galifianakis",
+      "id": "162655230",
+      "characters": ["Therman"]
+    },
+    {
+      "name": "Jemaine Clement",
+      "id": "528345871",
+      "characters": [
+        "Kieran",
+        "Kieran Vollard"
+      ]
+    },
+    {
+      "name": "Stephanie Szostak",
+      "id": "770681871",
+      "characters": ["Julie"]
+    }
+  ],
+  "abridged_directors": [{"name": "Jay Roach"}],
+  "studio": "Paramount Studios",
+  "alternate_ids": {"imdb": "0427152"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=0427152",
+    "alternate": "http://www.rottentomatoes.com/m/dinner_for_schmucks/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/770807431/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/770807431/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/770807431/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/770807431.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

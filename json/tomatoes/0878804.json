@@ -1,0 +1,102 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 770808362,
+  "title": "The Blind Side",
+  "year": 2009,
+  "genres": [
+    "Drama",
+    "Sports & Fitness",
+    "Comedy"
+  ],
+  "mpaa_rating": "PG-13",
+  "runtime": 129,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2009-11-20",
+    "dvd": "2010-03-23"
+  },
+  "ratings": {
+    "critics_rating": "Fresh",
+    "critics_score": 66,
+    "audience_rating": "Upright",
+    "audience_score": 85
+  },
+  "synopsis": "",
+  "posters": {
+    "thumbnail": "http://content8.flixster.com/movie/11/16/67/11166718_tmb.jpg",
+    "profile": "http://content8.flixster.com/movie/11/16/67/11166718_tmb.jpg",
+    "detailed": "http://content8.flixster.com/movie/11/16/67/11166718_tmb.jpg",
+    "original": "http://content8.flixster.com/movie/11/16/67/11166718_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Sandra Bullock",
+      "id": "162652205",
+      "characters": ["Leigh Anne Tuohy"]
+    },
+    {
+      "name": "Tim McGraw",
+      "id": "356196876",
+      "characters": ["Sean Tuohy"]
+    },
+    {
+      "name": "Quinton Aaron",
+      "id": "770838649",
+      "characters": ["Michael Oher"]
+    },
+    {
+      "name": "Jae Head",
+      "id": "770816808",
+      "characters": ["S.J. Tuohy"]
+    },
+    {
+      "name": "Lily Collins",
+      "id": "770878598",
+      "characters": ["Collins Tuohy"]
+    }
+  ],
+  "abridged_directors": [{"name": "John Lee Hancock"}],
+  "studio": "Warner Bros. Pictures",
+  "alternate_ids": {"imdb": "0878804"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=0878804",
+    "alternate": "http://www.rottentomatoes.com/m/1212694-blind_side/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/770808362/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/770808362/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/770808362/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/770808362.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

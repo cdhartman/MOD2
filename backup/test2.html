@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" src="js/jquery/jquery-2.min.js"></script>
+	<script type="text/javascript" src="js/jquery/handlebars-v2.0.0.js"></script>
+	<script type="text/javascript" src="js/jquery/jquery.loadFromTemplate.min.js"></script>
+	
+	<script id="some-template2" type="text/x-handlebars-template" src="template/carousel.html"></script>
+	
+	<script type='text/javascript'>//<![CDATA[ 
+	$(window).load(function(){
+	
+	var source = $("#some-template").html();
+	alert(source);
+	
+	// $('#some-template').html("").load('template/carousel.html')
+	// var source = $("#some-template").html();
+	// alert(source)
+
+	
+	
+	var template = Handlebars.compile(source); 
+
+	var data = { 
+			"section": "1",
+			"genre": "Action",
+			"movies" : [
+				{
+				  "row": "1",
+				  "titles": [
+					{"title": "X-Men: First Class", "movieDBID": "49538", "imdbID": "tt0848228", "rowTarget": "3"},
+					{"title": "Avengers", "movieDBID": "24428", "imdbID": "tt0848228"},
+					{"title": "Bourne Legacy", "movieDBID": "49040", "imdbID": "tt1194173"},
+					{"title": "Captain America", "movieDBID": "1771", "imdbID": "tt0458339"},
+					{"title": "Dark Knight Rises", "movieDBID": "49026", "imdbID": "tt1345836"},
+					{"title": "Ender's Game", "movieDBID": "80274", "imdbID": "tt1731141"},
+					{"title": "Fistful of Dollars", "movieDBID": "391", "imdbID": "tt0058461"},
+					{"title": "Getaway", "movieDBID": "146227", "imdbID": "tt2167202"},
+					{"title": "Hobbit: An Unexpected Journey", "movieDBID": "49051", "imdbID": "tt0903624"},
+					{"title": "Hobbit: Desolation of Smaug", "movieDBID": "57158", "imdbID": "tt1170358", "rowTarget": "2"}
+				  ]
+				},
+				{
+				  "row": "2",
+				  "titles": [
+					{"title": "Hobbit: An Unexpected Journey", "movieDBID": "49051", "imdbID": "tt0903624", "rowTarget": "1"},
+					{"title": "Hobbit: Desolation of Smaug", "movieDBID": "57158", "imdbID": "tt1170358"},
+					{"title": "Hunger Games", "movieDBID": "70160", "imdbID": "tt1392170"},
+					{"title": "Hunger Games: Catching Fire", "movieDBID": "101299", "imdbID": "tt1951264"},
+					{"title": "Inception", "movieDBID": "80274", "imdbID": "tt1731141"},
+					{"title": "Iron Man 3", "movieDBID": "391", "imdbID": "tt0058461"},
+					{"title": "Jack Reacher", "movieDBID": "146227", "imdbID": "tt2167202"},
+					{"title": "John Carter", "movieDBID": "49529", "imdbID": "tt0401729"},
+					{"title": "Lone Ranger", "movieDBID": "57201", "imdbID": "tt1210819"},
+					{"title": "Looper", "movieDBID": "59967", "imdbID": "tt1276104", "rowTarget": "3"}
+				  ]
+				},
+				{
+				  "row": "3",
+				  "titles": [
+					{"title": "Lone Ranger", "movieDBID": "57201", "imdbID": "tt1210819", "rowTarget": "2"},
+					{"title": "Looper", "movieDBID": "59967", "imdbID": "tt1276104"},
+					{"title": "Mission Impossible 4", "movieDBID": "56292", "imdbID": "tt1229238"},
+					{"title": "Pacific Rim", "movieDBID": "68726", "imdbID": "tt1663662"},
+					{"title": "Star Trek: Into Darkness", "movieDBID": "54138", "imdbID": "tt1408101"},
+					{"title": "Skyfall", "movieDBID": "37724", "imdbID": "tt1074638"},
+					{"title": "Red", "movieDBID": "39514", "imdbID": "tt1245526"},
+					{"title": "Thor: The Dark World", "movieDBID": "76338", "imdbID": "tt1981115"},
+					{"title": "X-Men: First Class", "movieDBID": "49538", "imdbID": "tt1270798"}
+				  ]
+				}
+			]
+	}; 
+
+	Handlebars.registerHelper('fullName', function(person) {
+	  return person.firstName + " " + person.lastName;
+	});
+
+	$('#container').append(template(data));
+	});//]]>  
+
+</script>
+</head>
+
+<body>
+	<h1>Handlebars JS Example</h1>
+	<script id="some-template" type="text/x-handlebars-template">
+		<div class="carousel-inner">
+			{{#movies}}
+				{{#if @first}}<div class="item active">{{else}}<div class="item">{{/if}}
+					<div class="row">
+						{{#each titles}}
+							{{#if @first}}
+								<div class="col-xs-3-prev" onclick="activeItem('{{../../../genre}}','{{rowTarget}}','{{../../../section}}{{rowTarget}}8');">
+									<a href="#myCarousel{{../../../genre}}" data-slide="prev" id="{{../../../genre}}PrevRow{{../../row}}" genre="{{../../../genre}}" row="{{../../row}}" column="{{@index}}" tabindex="{{../../../section}}{{../../row}}{{@index}}">
+									<img src="images/movies/photos/{{movieDBID}}/{{movieDBID}}.jpg" class="movieArt previousMovieGroup" onerror="imgPosterError(this,'poster');" /></a>
+								</div>
+							{{else}}
+								{{#if @last}}
+									<div class="col-xs-3-next" onclick="activeItem('{{../../../../genre}}','{{rowTarget}}','{{../../../../section}}{{rowTarget}}1');">
+										<a href="#myCarousel{{../../../../genre}}" data-slide="next" tabindex="{{../../../../section}}{{../../../row}}{{@index}}" id="{{../../../../genre}}NextRow1" genre="{{../../../../genre}}" row="{{../../../row}}" column="{{@index}}" class="nextMovieGroup thumbnail">
+											<img src="images/movies/photos/{{movieDBID}}/{{movieDBID}}.jpg" class="movieArt nextMovieGroup" onerror="imgPosterError(this,'poster');" /></a>
+									</div>
+							{{else}} 
+								<div class="col-xs-3">
+									<a href="movie.html?id1={{imdbID}}&id2={{movieDBID}}&c={{../../../../genre}}" class="thumbnail" tabindex="{{../../../../section}}{{../../../row}}{{@index}}" genre="{{../../../../genre}}" row="{{../../../row}}" column="{{@index}}" id="{{../../../../genre}}Row{{../../../row}}Item{{@index}}" onclick="activeItem('{{../../../../genre}}','{{../../../row}}','{{../../../../section}}{{../../../row}}{{@index}}');">
+									<img src="images/movies/photos/{{movieDBID}}/{{movieDBID}}.jpg" class="movieArt " onerror="imageError(this,'poster');" /></a>
+									<div class="movieTitle">{{title}} <span class="fullMovie">720p</span></div>
+								</div>
+							{{/if}}{{/if}}
+						{{/each}}
+					</div>
+				</div>
+			{{/movies}}
+		</div>
+	</script>
+	
+	<div id="container"></div>
+	<script id="container2" type="text/x-handlebars-template"></script>
+	<script>
+		$('#container2').html("").load('template/carousel.html')
+	</script>
+</body>
+
+</html>

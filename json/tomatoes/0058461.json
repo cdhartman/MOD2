@@ -1,0 +1,103 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 13370,
+  "title": "A Fistful of Dollars (Per un Pugno di Dollari)",
+  "year": 1964,
+  "genres": [
+    "Western",
+    "Action & Adventure",
+    "Art House & International",
+    "Classics"
+  ],
+  "mpaa_rating": "R",
+  "runtime": 101,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "1964-09-12",
+    "dvd": "2001-06-19"
+  },
+  "ratings": {
+    "critics_rating": "Certified Fresh",
+    "critics_score": 98,
+    "audience_rating": "Upright",
+    "audience_score": 91
+  },
+  "synopsis": "",
+  "posters": {
+    "thumbnail": "http://content7.flixster.com/movie/11/17/80/11178025_tmb.jpg",
+    "profile": "http://content7.flixster.com/movie/11/17/80/11178025_tmb.jpg",
+    "detailed": "http://content7.flixster.com/movie/11/17/80/11178025_tmb.jpg",
+    "original": "http://content7.flixster.com/movie/11/17/80/11178025_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Clint Eastwood",
+      "id": "162659169",
+      "characters": ["The Man with No Name"]
+    },
+    {
+      "name": "Marianne Koch",
+      "id": "770696373",
+      "characters": ["Marisol"]
+    },
+    {
+      "name": "Gian Maria Volonte",
+      "id": "162691414",
+      "characters": ["Ramon Rojo"]
+    },
+    {
+      "name": "Wolfgang Lukschy",
+      "id": "770716689",
+      "characters": ["John Baxter"]
+    },
+    {
+      "name": "Mario Brega",
+      "id": "260692025",
+      "characters": ["Chico"]
+    }
+  ],
+  "abridged_directors": [{"name": "Sergio Leone"}],
+  "studio": "MGM Home Entertainment",
+  "alternate_ids": {"imdb": "0058461"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=0058461",
+    "alternate": "http://www.rottentomatoes.com/m/fistful_of_dollars/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/13370/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/13370/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/13370/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/13370.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

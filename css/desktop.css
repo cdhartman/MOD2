@@ -1,0 +1,49 @@
+body {font-size: 11pt;}
+
+span.fullMovie {font-size: 6.5pt;}
+.pageTitle {font-size: 16pt;}
+.col-xs-3-cast-label{font-size: 10pt;}
+.plain {font-size: 10pt;}
+div.movieDetailPoster {width: 16%; padding: 25px 15px 40px 24px; min-height: 450px;}
+div.movieDetailText {padding: 20px 26px 0 26px;}
+div.movieDetailBlock, div.movieDetailBlockDirector, div.movieDetailBlockCast {font-size: 13pt;}
+.categoryTitle2 {font-size: 12pt;}
+.movieDetailTitle {font-size: 16pt;}
+.col-xs-3-photo { padding: 0 20px 0 8px;}
+.col-xs-3-cast-label{min-height: 20px;}
+p.plot {font-size: 14pt;}
+.col-xs-3-cast{padding-right: 18px; padding-left: 5px;}
+.carousel-inner > .item {
+  -webkit-transition: 1.2s ease-in-out left;
+       -o-transition: 1.2s ease-in-out left;
+          transition: 1.2s ease-in-out left;
+}
+img.previousMovieGroup{transform: perspective( 445px ) rotateY( 30deg ); -webkit-transform: perspective( 445px ) rotateY( 30deg ); max-width: 100%; height: 215px;}
+img.nextMovieGroup{transform: perspective( 445px ) rotateY( -30deg ); -webkit-transform: perspective( 445px ) rotateY( -30deg ); max-width: 100%; height: 215px;}
+.movieTitleWide {background:#8f8f8f; background:rgba(0,0,0,0.1); padding: 8px 3px 6px 6px; margin: 10px 5px 0 5px; min-height: 32px; vertical-align: middle; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;}
+
+/* Line 1424 */
+.col-xs-3
+{
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+a.thumbnail:hover img.movieArt, a.thumbnail:active img.movieArt, a.thumbnail:focus img.movieArt{ opacity: 1.0; }
+a.thumbnail:hover + div.movieTitle, a.thumbnail:active + div.movieTitle, a.thumbnail:focus + div.movieTitle { 
+	color: #eee; 
+	/* background:rgba(212,87,69,0.65); */
+	background:rgba(0,0,0,0.5);
+	margin: 0 2px 4px 2px;
+	outline: none;
+	border: 2px solid #333;
+	border-radius: 4px;
+	box-shadow: 0px 0px 10px 3px rgba(255,255,255,0.50);
+	min-height: 40px;
+}
+a.thumbnail:hover + span.fullMovie, a.thumbnail:active + span.fullMovie, a.thumbnail:focus + span.fullMovie { 
+	color: #eee;
+	
+}
+#nrCarousel {padding: 0 24px;}

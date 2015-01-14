@@ -1,0 +1,32 @@
+<div class="carousel-inner">
+	{{#movies}}
+		{{#if @first}}<div class="item active">{{else}}<div class="item">{{/if}}
+			<div class="row">
+				{{#each titles}}
+					{{#if @first}}
+						{{#if title}}
+							<div class="col-xs-3-prev" onclick="activeItem('{{../../../../genre}}','{{rowTarget}}','{{../../../../section}}{{rowTarget}}8');">
+								<a href="#myCarousel{{../../../../genre}}" data-slide="prev" id="{{../../../../genre}}PrevRow{{../../../row}}" genre="{{../../../../genre}}" row="{{../../../row}}" column="{{@index}}" tabindex="{{../../../../section}}{{../../../row}}{{@index}}">
+								<img src="images/movies/photos/{{movieDBID}}/{{movieDBID}}.jpg" class="movieArt previousMovieGroup" onerror="imgPosterError(this,'poster');" /></a>
+							</div>
+						{{else}}
+							<div class="col-xs-3-prev"></div>
+						{{/if}}
+					{{else}}
+						{{#if rowTarget}}
+							<div class="col-xs-3-next" onclick="activeItem('{{../../../../genre}}','{{rowTarget}}','{{../../../../section}}{{rowTarget}}1');">
+								<a href="#myCarousel{{../../../../genre}}" data-slide="next" tabindex="{{../../../../section}}{{../../../row}}{{@index}}" id="{{../../../../genre}}NextRow1" genre="{{../../../../genre}}" row="{{../../../row}}" column="{{@index}}" class="nextMovieGroup thumbnail">
+									<img src="images/movies/photos/{{movieDBID}}/{{movieDBID}}.jpg" class="movieArt nextMovieGroup" onerror="imgPosterError(this,'poster');" /></a>
+							</div>
+					{{else}} 
+						<div class="col-xs-3">
+							<a href="movie.html?id1={{imdbID}}&id2={{movieDBID}}&c={{../../../../genre}}" class="thumbnail" tabindex="{{../../../../section}}{{../../../row}}{{@index}}" genre="{{../../../../genre}}" row="{{../../../row}}" column="{{@index}}" id="{{../../../../genre}}Row{{../../../row}}Item{{@index}}" onclick="activeItem('{{../../../../genre}}','{{../../../row}}','{{../../../../section}}{{../../../row}}{{@index}}');">
+							<img src="images/movies/photos/{{movieDBID}}/{{movieDBID}}.jpg" class="movieArt " onerror="imageError(this,'poster');" /></a>
+							<div class="movieTitle">{{title}}{{#if title}} <span class="fullMovie">{{format}}</span>{{/if}}</div>
+						</div>
+					{{/if}}{{/if}}
+				{{/each}}
+			</div>
+		</div>
+	{{/movies}}
+</div>

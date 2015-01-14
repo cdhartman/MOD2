@@ -1,0 +1,101 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 155655228,
+  "title": "The Devil Wears Prada",
+  "year": 2006,
+  "genres": [
+    "Drama",
+    "Comedy"
+  ],
+  "mpaa_rating": "PG-13",
+  "runtime": 106,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2006-06-30",
+    "dvd": "2006-12-12"
+  },
+  "ratings": {
+    "critics_rating": "Certified Fresh",
+    "critics_score": 76,
+    "audience_rating": "Upright",
+    "audience_score": 76
+  },
+  "synopsis": "",
+  "posters": {
+    "thumbnail": "http://content9.flixster.com/movie/10/89/84/10898435_tmb.jpg",
+    "profile": "http://content9.flixster.com/movie/10/89/84/10898435_tmb.jpg",
+    "detailed": "http://content9.flixster.com/movie/10/89/84/10898435_tmb.jpg",
+    "original": "http://content9.flixster.com/movie/10/89/84/10898435_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Meryl Streep",
+      "id": "162654900",
+      "characters": ["Miranda Priestly"]
+    },
+    {
+      "name": "Anne Hathaway",
+      "id": "162656190",
+      "characters": ["Andy Sachs"]
+    },
+    {
+      "name": "Emily Blunt",
+      "id": "162685827",
+      "characters": ["Emily"]
+    },
+    {
+      "name": "Stanley Tucci",
+      "id": "162661152",
+      "characters": ["Nigel"]
+    },
+    {
+      "name": "Adrian Grenier",
+      "id": "162669577",
+      "characters": ["Nate"]
+    }
+  ],
+  "abridged_directors": [{"name": "David Frankel"}],
+  "studio": "20th Century Fox",
+  "alternate_ids": {"imdb": "0458352"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=0458352",
+    "alternate": "http://www.rottentomatoes.com/m/the_devil_wears_prada/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/155655228/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/155655228/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/155655228/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/155655228.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

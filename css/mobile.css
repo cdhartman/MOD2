@@ -1,0 +1,30 @@
+body {font-size: 9pt;}
+span.fullMovie {font-size: 4pt;}
+.pageTitle {font-size: 14pt;}
+.col-xs-3-cast-label{font-size: 7pt;}
+.plain {font-size: 7pt;}
+div.movieDetailPoster {width: 17%; padding: 25px 15px 10px 8px; min-height: 340px;}
+div.movieDetailText {padding: 20px 20px 0 20px;}
+div .movieDetailBlock, div.movieDetailBlockDirector, div.movieDetailBlockCast  {font-size: 10pt;}
+.categoryTitle2 {font-size: 8pt;}
+.movieDetailTitle {font-size: 14pt;}
+.col-xs-3-photo {padding: 0 5px;}
+.col-xs-3-cast-label {min-height: 80px;}
+p.plot {font-size: 12pt;}
+.col-xs-3-cast{padding-right: 4px; padding-left: 4px;}
+.carousel-inner > .item {
+  -webkit-transition: .01s ease-in-out left;
+       -o-transition: .01s ease-in-out left;
+          transition: .01s ease-in-out left;
+}
+img.previousMovieGroup{transform: perspective( 445px ) rotateY( 30deg ); -webkit-transform: perspective( 445px ) rotateY( 30deg ); max-width: 100%; height: 125px;}
+img.nextMovieGroup{transform: perspective( 445px ) rotateY( -30deg ); -webkit-transform: perspective( 445px ) rotateY( -30deg ); max-width: 100%; height: 125px;}
+.movieTitleWide {background:#8f8f8f; background:rgba(0,0,0,0.1); padding: 8px 3px 6px 6px; margin: 1px 5px 0 4px; min-height: 32px; vertical-align: middle;}
+.col-xs-3
+{
+  position: relative;
+  min-height: 1px;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+#nrCarousel {padding: 0 30px;}

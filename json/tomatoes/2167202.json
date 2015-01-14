@@ -1,0 +1,98 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 771319941,
+  "title": "Getaway",
+  "year": 2013,
+  "genres": ["Action & Adventure"],
+  "mpaa_rating": "PG-13",
+  "runtime": 90,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2013-08-30",
+    "dvd": "2013-11-26"
+  },
+  "ratings": {
+    "critics_rating": "Rotten",
+    "critics_score": 2,
+    "audience_rating": "Spilled",
+    "audience_score": 36
+  },
+  "synopsis": "Brent Magna (Ethan Hawke) is a burned out race car driver who is thrust into a do-or-die mission behind the wheel when his wife is kidnapped. With Brent's only ally being a young hacker (Selena Gomez), his one hope of saving his wife is to follow the orders of the mysterious voice (Jon Voight) who's watching his every move through cameras mounted on the car Brent's driving. (c) WB",
+  "posters": {
+    "thumbnail": "http://content7.flixster.com/movie/11/17/50/11175005_tmb.jpg",
+    "profile": "http://content7.flixster.com/movie/11/17/50/11175005_tmb.jpg",
+    "detailed": "http://content7.flixster.com/movie/11/17/50/11175005_tmb.jpg",
+    "original": "http://content7.flixster.com/movie/11/17/50/11175005_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Ethan Hawke",
+      "id": "162660464",
+      "characters": ["Brent Magna"]
+    },
+    {
+      "name": "Selena Gomez",
+      "id": "770686131",
+      "characters": ["The Kid"]
+    },
+    {
+      "name": "Jon Voight",
+      "id": "162664393",
+      "characters": ["The Voice"]
+    },
+    {
+      "name": "Rebecca Budig",
+      "id": "770718893",
+      "characters": ["Leanne"]
+    },
+    {
+      "name": "Paul Freeman",
+      "id": "162718594",
+      "characters": ["The Man"]
+    }
+  ],
+  "abridged_directors": [{"name": "Courtney Solomon"}],
+  "studio": "Warner Bros. Pictures",
+  "alternate_ids": {"imdb": "2167202"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=2167202",
+    "alternate": "http://www.rottentomatoes.com/m/getaway/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771319941/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771319941/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771319941/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/771319941.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

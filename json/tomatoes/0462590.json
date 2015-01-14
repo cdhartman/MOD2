@@ -1,0 +1,98 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 248007821,
+  "title": "Step Up",
+  "year": 2006,
+  "genres": ["Drama"],
+  "mpaa_rating": "PG-13",
+  "runtime": 103,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2006-08-11",
+    "dvd": "2006-12-19"
+  },
+  "ratings": {
+    "critics_rating": "Rotten",
+    "critics_score": 19,
+    "audience_rating": "Upright",
+    "audience_score": 83
+  },
+  "synopsis": "",
+  "posters": {
+    "thumbnail": "http://content9.flixster.com/movie/11/17/87/11178779_tmb.jpg",
+    "profile": "http://content9.flixster.com/movie/11/17/87/11178779_tmb.jpg",
+    "detailed": "http://content9.flixster.com/movie/11/17/87/11178779_tmb.jpg",
+    "original": "http://content9.flixster.com/movie/11/17/87/11178779_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Channing Tatum",
+      "id": "162661835",
+      "characters": ["Tyler Gage"]
+    },
+    {
+      "name": "Jenna Dewan Tatum",
+      "id": "326396942",
+      "characters": ["Nora Clark"]
+    },
+    {
+      "name": "Mario",
+      "id": "326396944",
+      "characters": ["Miles Darby"]
+    },
+    {
+      "name": "Drew Sidora",
+      "id": "326396945",
+      "characters": ["Lucy Avila"]
+    },
+    {
+      "name": "Heavy D",
+      "id": "770679998",
+      "characters": ["Omar"]
+    }
+  ],
+  "abridged_directors": [{"name": "Anne Fletcher"}],
+  "studio": "Buena Vista",
+  "alternate_ids": {"imdb": "0462590"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=0462590",
+    "alternate": "http://www.rottentomatoes.com/m/step_up/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/248007821/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/248007821/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/248007821/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/248007821.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

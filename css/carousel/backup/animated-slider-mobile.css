@@ -1,0 +1,110 @@
+/* fixme: rename choose_slider_items to animated-slider or something */
+
+li.previous_item img.moviePosterWide {transform: perspective( 400px ) rotateY( -25deg ); -webkit-transform: perspective( 400px ) rotateY( -25deg );}
+li.next_item img.moviePosterWide {transform: perspective( 400px ) rotateY( 25deg ); -webkit-transform: perspective( 400px ) rotateY( 25deg );}
+li.previous_item_2 img.moviePosterWide {transform: perspective( 400px ) rotateY( -40deg ); -webkit-transform: perspective( 400px ) rotateY( -40deg );}
+li.next_item_2 img.moviePosterWide {transform: perspective( 400px ) rotateY( 40deg ); -webkit-transform: perspective( 400px ) rotateY( 40deg );}
+
+.choose_slider_items .current_item {
+	display: block;
+	position: absolute;
+	
+	transform: scale(1.0,1.0);
+	-moz-transform: scale(1.0,1.0);
+	-ms-transform: scale(1.0,1.0);
+	-webkit-transform: scale(1.0,1.0);
+	top: 0;
+	left: 34%;
+	z-index: 100;
+}
+
+.choose_slider_items li {
+	position: relative;
+	list-style: none;
+	display: none;
+	text-align: center;
+
+	-webkit-transition: all 1.5s ease-in-out;
+	-moz-transition: all 1.5s ease-in-out;
+	-o-transition: all 1.5s ease-in-out;
+	transition: all 1.5s ease-in-out;
+}
+
+.choose_slider_items .previous_item {
+	display: block;
+	transform: scale(0.6,0.6);
+	transform: perspective( 400px ) rotateY( 45deg );
+	-moz-transform: scale(0.6,0.6);
+	-ms-transform: scale(0.6,0.6);
+	-webkit-transform: scale(0.6,0.6);
+	opacity: 0.40;
+	position: absolute;
+	top: 8px;
+	left: 5%;
+	z-index: 0;
+}
+
+.choose_slider_items .next_item {
+	display: block;
+	transform: scale(0.6,0.6);
+	-moz-transform: scale(0.6,0.6);
+	-ms-transform: scale(0.6,0.6);
+	-webkit-transform: scale(0.6,0.6);
+	opacity: 0.40;
+	position: absolute;
+	top: 8px;
+	left: 63%;
+	z-index: 0;
+}
+
+.choose_slider_items .previous_hidden {
+	display: block;
+	transform: scale(0.6,0.6);
+	-moz-transform: scale(0.6,0.6);
+	-ms-transform: scale(0.6,0.6);
+	-webkit-transform: scale(0.6,0.6);
+	opacity: 0.0;
+	position: absolute;
+	top: 8px;
+	left: 5%;
+	z-index: 0;
+}
+
+.choose_slider_items .next_hidden {
+	display: block;
+	transform: scale(0.6,0.6);
+	-moz-transform: scale(0.6,0.6);
+	-ms-transform: scale(0.6,0.6);
+	-webkit-transform: scale(0.6,0.6);
+	opacity: 0.0;
+	position: absolute;
+	top: 10px;
+	left: 63%;
+	z-index: 0;
+}
+
+.choose_slider_items .previous_item_2 {
+	display: block;
+	transform: scale(0.4,0.4);
+	-moz-transform: scale(0.4,0.4);
+	-ms-transform: scale(0.4,0.4);
+	-webkit-transform: scale(0.3,0.3);
+	opacity: 0.10;
+	position: absolute;
+	top: 10px;
+	left: -10%;
+	z-index: 0;
+}
+
+.choose_slider_items .next_item_2 {
+	display: block;
+	transform: scale(0.5,0.5);
+	-moz-transform: scale(0.5,0.5);
+	-ms-transform: scale(0.5,0.5);
+	-webkit-transform: scale(0.7,0.7);
+	opacity: 0.10;
+	position: absolute;
+	top: 70px;
+	left: 85%;
+	z-index: 0;
+}

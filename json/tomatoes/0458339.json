@@ -1,0 +1,101 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 770739679,
+  "title": "Captain America: The First Avenger",
+  "year": 2011,
+  "genres": [
+    "Mystery & Suspense",
+    "Action & Adventure"
+  ],
+  "mpaa_rating": "PG-13",
+  "runtime": 124,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2011-07-22",
+    "dvd": "2011-10-25"
+  },
+  "ratings": {
+    "critics_rating": "Certified Fresh",
+    "critics_score": 79,
+    "audience_rating": "Upright",
+    "audience_score": 74
+  },
+  "synopsis": "Captain America: The First Avenger will focus on the early days of the Marvel Universe when Steve Rogers (Chris Evans) volunteers to participate in an experimental program that turns him into the Super Soldier known as Captain America. As Captain America, Rogers joins forces with Bucky Barnes (Sebastian Stan) and Peggy Carter (Hayley Atwell) to wage war on the evil HYDRA organization, led by the villainous Red Skull (Hugo Weaving.) -- (C) Paramount",
+  "posters": {
+    "thumbnail": "http://content9.flixster.com/movie/11/15/83/11158339_tmb.jpg",
+    "profile": "http://content9.flixster.com/movie/11/15/83/11158339_tmb.jpg",
+    "detailed": "http://content9.flixster.com/movie/11/15/83/11158339_tmb.jpg",
+    "original": "http://content9.flixster.com/movie/11/15/83/11158339_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Chris Evans",
+      "id": "162652784",
+      "characters": ["Captain America/Steve Rogers"]
+    },
+    {
+      "name": "Hayley Atwell",
+      "id": "417268294",
+      "characters": ["Peggy Carter"]
+    },
+    {
+      "name": "Sebastian Stan",
+      "id": "326299814",
+      "characters": ["James Buchanan \"Bucky\" Barnes"]
+    },
+    {
+      "name": "Tommy Lee Jones",
+      "id": "162666788",
+      "characters": ["Colonel Chester Phillips"]
+    },
+    {
+      "name": "Hugo Weaving",
+      "id": "162709905",
+      "characters": ["Johann Schmidt/Red Skull"]
+    }
+  ],
+  "abridged_directors": [{"name": "Joe Johnston"}],
+  "studio": "Paramount Pictures",
+  "alternate_ids": {"imdb": "0458339"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=0458339",
+    "alternate": "http://www.rottentomatoes.com/m/captain-america/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/770739679/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/770739679/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/770739679/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/770739679.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

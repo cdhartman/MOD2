@@ -1,0 +1,102 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 770860164,
+  "title": "Red",
+  "year": 2010,
+  "genres": [
+    "Action & Adventure",
+    "Mystery & Suspense",
+    "Comedy"
+  ],
+  "mpaa_rating": "PG-13",
+  "runtime": 111,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2010-10-15",
+    "dvd": "2011-01-25"
+  },
+  "ratings": {
+    "critics_rating": "Certified Fresh",
+    "critics_score": 71,
+    "audience_rating": "Upright",
+    "audience_score": 72
+  },
+  "synopsis": "A group of former government assassins fights back against the CIA after they're targeted for knowing too much in this adaptation of Warren Ellis' acclaimed DC Comics graphic novels. Frank Moses (Bruce Willis) used to be a hired gun for the CIA. Along with Joe (Morgan Freeman), Marvin (John Malkovich), and Victoria (Helen Mirren), Frank's specialty was carrying out contracts that the government didn't want the public to know about. These days, Frank and his old gang are all retired, but the powers that be are still concerned that they know too much, and dispatch a team of top assassins to ensure their silence. Now, Frank and his former team members realize that their only hope for survival is to break into CIA headquarters and expose the truth. But once they're in, the group uncovers evidence of a massive cover-up that promises to rock the very foundation of our government. Karl Urban, Brian Cox, Richard Dreyfuss, and Ernest Borgnine co-star. ~ Jason Buchanan, Rovi",
+  "posters": {
+    "thumbnail": "http://content7.flixster.com/movie/11/15/16/11151649_tmb.jpg",
+    "profile": "http://content7.flixster.com/movie/11/15/16/11151649_tmb.jpg",
+    "detailed": "http://content7.flixster.com/movie/11/15/16/11151649_tmb.jpg",
+    "original": "http://content7.flixster.com/movie/11/15/16/11151649_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Bruce Willis",
+      "id": "162652509",
+      "characters": ["Frank Moses"]
+    },
+    {
+      "name": "Morgan Freeman",
+      "id": "162652224",
+      "characters": ["Joe Matheson"]
+    },
+    {
+      "name": "John Malkovich",
+      "id": "162655610",
+      "characters": ["Marvin Boggs"]
+    },
+    {
+      "name": "Helen Mirren",
+      "id": "162662871",
+      "characters": ["Victoria"]
+    },
+    {
+      "name": "Mary-Louise Parker",
+      "id": "162660150",
+      "characters": ["Sarah Ross"]
+    }
+  ],
+  "abridged_directors": [{"name": "Robert Schwentke"}],
+  "studio": "Summit Entertainment",
+  "alternate_ids": {"imdb": "1245526"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=1245526",
+    "alternate": "http://www.rottentomatoes.com/m/red/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/770860164/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/770860164/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/770860164/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/770860164.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}

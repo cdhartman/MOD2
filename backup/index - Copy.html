@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="author" content="cdh02" />
+	<title>Complimentary Movies</title>
+	<link href="favicon.ico" rel="shortcut icon" />
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="js/jquery/jquery-1.min.js"></script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+		<script type="text/javascript" src="js/jquery/jquery-2.min.js"></script>
+	<!--<![endif]-->
+	<!-- <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script> -->
+	<script type="text/javascript" charset="utf-8" src="js/jquery/jquery.scrollTo.min.js"></script>
+	<!-- <script type="text/javascript" src="js/jquery/jquery.cssslider.js"></script> -->
+	<script type='text/javascript' src="js/bootstrap/bootstrap.js"></script>
+	<script type='text/javascript' src="js/modExtras.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/clock.css">
+	<link rel="stylesheet" type="text/css" href="css/shelf.css">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<script  type='text/javascript'>
+		// alert(navigator.userAgent);
+		if (isMobileDevice() || (navigator.userAgent.search("iPad") != -1)) {
+			// document.write('<link rel=stylesheet type=text/css href=css/carousel/animated-slider-mobile.css >');
+			document.write('<link rel=stylesheet type=text/css href=css/mobile.css >');
+		} else {
+			// document.write('<link rel=stylesheet type=text/css href=css/carousel/animated-slider-desktop.css >');
+			document.write('<link rel=stylesheet type=text/css href=css/desktop.css >');
+		}
+	</script>
+
+</head>
+
+<body>
+<span id="header"></span>
+
+<div class="categoryTitle">New & Popular Releases</div>
+<span id="myCarouselNewReleases"></span>
+<div style="clear:both;"><br /></div>
+
+<div class="categoryTitle">Action</div>
+<div id="myCarouselAction" class="carousel slide"></div>
+<div style="clear:both;"></div>
+
+<div class="categoryTitle">Comedy</div>
+<div id="myCarouselComedy" class="carousel slide"></div>
+<div style="clear:both;"></div>
+
+<div class="categoryTitle">Drama</div>
+<div id="myCarouselDrama" class="carousel slide"></div>
+<div style="clear:both;"></div>
+
+<div class="categoryTitle">Family</div>
+<div id="myCarouselFamily" class="carousel slide"></div>
+<div style="clear:both;"></div>
+
+</body>
+</html>
+
+<script type="text/javascript">
+	$('#header').html("<img src=\"images/misc/ajax-loader.gif\" alt=\"ajax\" /> Loading Header, please wait...").load('includes/header.html');
+	$('#myCarouselNewReleases').html("<img src=\"images/misc/ajax-loader.gif\" alt=\"ajax\" /> Loading New Releases, please wait...").load('includes/movies/newReleasesV2.html');
+	$('#myCarouselAction').html("<img src=\"images/misc/ajax-loader.gif\" alt=\"ajax\" /> Loading Action Movies, please wait...").load('includes/movies/actionV2.html');
+	$('#myCarouselComedy').html("<img src=\"images/misc/ajax-loader.gif\" alt=\"ajax\" /> Loading Comedy Movies, please wait...").load('includes/movies/comedyV2.html');
+	$('#myCarouselDrama').html("<img src=\"images/misc/ajax-loader.gif\" alt=\"ajax\" /> Loading Drama Movies, please wait...").load('includes/movies/dramaV2.html');
+	$('#myCarouselFamily').html("<img src=\"images/misc/ajax-loader.gif\" alt=\"ajax\" /> Loading Family Movies, please wait...").load('includes/movies/familyV2.html');
+
+	$("#myCarouselAction, #myCarouselComedy, #myCarouselDrama, #myCarouselFamily").carousel({
+		 interval : false,
+		 pause: false,
+		 wrap: true
+	 });
+	$("#myCarouselNewReleases").carousel({
+		 interval : 10000,
+		 pause: false
+	});
+
+	$('body').on('click', 'a', function(e) {
+		window.sessionStorage.setItem("scrollPosition", $(window).scrollTop());
+	});
+
+	$("body").keydown(function(e){
+		var currentIndex = document.activeElement.tabIndex,
+		row = document.activeElement.getAttribute('row'),
+		column = document.activeElement.getAttribute('column'),
+		genre = document.activeElement.getAttribute('genre');
+		
+		if (currentIndex > 100) {
+			
+			if (e.which == 40) {
+				// down arrow key pressed
+				newIndex = currentIndex + 100; $('[tabindex=' + newIndex + ']').focus();
+				$('#myCarouselAction').carousel(0); $('#myCarouselComedy').carousel(0); $('#myCarouselDrama').carousel(0); $('#myCarouselFamily').carousel(0);
+			} else if (e.which == 38) {
+				// up arrow key pressed
+				newIndex = currentIndex - 100; $('[tabindex=' + newIndex + ']').focus();
+			} else if (e.which == 39) {
+				// right arrow key pressed
+				if (currentIndex % 10 == 8) {
+					$('#myCarousel' + genre).carousel('next');currentIndex +=2;
+				}
+				newIndex = currentIndex + 1; $('[tabindex=' + newIndex + ']').focus();
+			} else if (e.which == 37) {
+				// alert('left arrow key pressed'); // left arrow key pressed 
+				if (row != '1') {
+					if (column == 1) {
+						$('#myCarousel' + genre).carousel('prev');currentIndex += -2;
+					}
+					newIndex = currentIndex - 1; $('[tabindex=' + newIndex + ']').focus();
+				} else {
+					if (column != 1) {} {newIndex = currentIndex - 1; $('[tabindex=' + newIndex + ']').focus();}
+				}
+			}
+		}
+	});
+	
+	setTimeout(function(){
+		
+		// var temp = 'myCarousel' + window.sessionStorage.getItem('category').carousel(window.sessionStorage.getItem('row')-1);
+			// alert(window.sessionStorage.getItem('category') + window.sessionStorage.getItem('row') + window.sessionStorage.getItem('item'));
+			// if (window.sessionStorage.getItem('row') > 1) {$('#' + window.sessionStorage.getItem('category') + 'NextRow1').click();}
+			//if (window.sessionStorage.getItem('row') == 2) {$('#' + window.sessionStorage.getItem('category') + 'NextRow1').click();}
+			if (window.sessionStorage.getItem('row') > 1) {$('#myCarousel' + window.sessionStorage.getItem('category')).carousel(window.sessionStorage.getItem('row')-1)}
+			$(document).scrollTop( window.sessionStorage.getItem("scrollPosition"), 0, {duration:150});
+			// alert(window.sessionStorage.getItem('item'));
+			if (window.sessionStorage.getItem('item') > 1) {
+				$('[tabindex=' + window.sessionStorage.getItem('item') + ']').focus();} else {$('[tabindex=101]').focus();
+			}
+		}, 500
+	);
+</script>

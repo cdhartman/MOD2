@@ -1,0 +1,126 @@
+body.mod {font-size: 11pt;background-image:url('../images/background/gray-wallpaper-hd-19201200-3.jpg');}
+body.mod0 {font-size: 11pt;}
+body.mod1 {
+	font-size: 11pt;
+	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(bg.png) repeat 0 0, url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg) repeat 0 0;
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.25) 100%), url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg) repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.25)), color-stop(100%,rgba(255,255,255,0.25))), url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg) repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.25) 0%,rgba(255,255,255,0.25) 100%), url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg) repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.25) 0%,rgba(255,255,255,0.25) 100%), url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg) repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.25) 0%,rgba(255,255,255,0.25) 100%), url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg) repeat 0 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.25) 0%,rgba(255,255,255,0.25) 100%), url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg) repeat 0 0;
+}
+body.mod2 {
+	font-size: 11pt;
+	background: #6cab26;
+	background-image: url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg); /* fallback */
+	background-image: url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg), -webkit-gradient(linear, left top, left bottom, from(#6cab26), to(#6ceb86)); /* Saf4+, Chrome */
+	background-image: url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg), -webkit-linear-gradient(top, #6cab26, #6ceb86); /* Chrome 10+, Saf5.1+ */
+	background-image: url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg),    -moz-linear-gradient(top, #6cab26, #6ceb86); /* FF3.6+ */
+	background-image: url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg),     -ms-linear-gradient(top, #6cab26, #6ceb86); /* IE10 */
+	background-image: url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg),      -o-linear-gradient(top, #6cab26, #6ceb86); /* Opera 11.10+ */
+	background-image: url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg),         linear-gradient(to bottom, #6cab26, #6ceb86); /* W3C */
+}
+body.mod3 (@fallback, @imgUrl, @background-position-x, @background-position-y, @startColor, @endColor) {
+    background: @fallback;
+    background: url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg) @background-position-x @background-position-y no-repeat; /* fallback */
+    background: url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg) @background-position-x @background-position-y no-repeat, -webkit-gradient(linear, left top, left bottom, from(@startColor) @background-position-x @background-position-y no-repeat, to(@endColor)); /* Saf4+, Chrome */
+    background: url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg) @background-position-x @background-position-y no-repeat, -webkit-linear-gradient(top, @startColor, @endColor); /* Chrome 10+, Saf5.1+ */
+    background: url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg) @background-position-x @background-position-y no-repeat,    -moz-linear-gradient(top, @startColor, @endColor); /* FF3.6+ */
+    background: url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg) @background-position-x @background-position-y no-repeat,     -ms-linear-gradient(top, @startColor, @endColor); /* IE10 */
+    background: url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg) @background-position-x @background-position-y no-repeat,      -o-linear-gradient(top, @startColor, @endColor); /* Opera 11.10+ */
+    background: url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg) @background-position-x @background-position-y no-repeat,         linear-gradient(top, @startColor, @endColor); /* W3C */
+}
+body.mod4 {
+background-image:-webkit-gradient(linear, left top, right top, from(rgba(57, 194, 218, 0)), color-stop(0.35, rgba(57, 194, 218, 1)), to(rgba(57, 194, 218, 0)));
+background-image:-webkit-linear-gradient(left, rgba(57, 194, 218, 0), rgba(57, 194, 218, 1) 35%, rgba(57, 194, 218, 0));
+background-image: -moz-linear-gradient(left, rgba(57, 194, 218, 0), rgba(57, 194, 218, 1) 35%, rgba(57, 194, 218, 0));
+background-image: -ms-linear-gradient(left, rgba(57, 194, 218, 0), rgba(57, 194, 218, 1) 35%, rgba(57, 194, 218, 0));
+background-image: -o-linear-gradient(left, rgba(57, 194, 218, 0), rgba(57, 194, 218, 1) 35%, rgba(57, 194, 218, 0));
+background-image: linear-gradient(to right, rgba(57, 194, 218, 0), rgba(57, 194, 218, 1) 35%, rgba(57, 194, 218, 0));
+}
+div.mod5 {
+background: #b5bdc8; /* Old browsers */
+background: -moz-linear-gradient(top,  #b5bdc8 0%, #828c95 36%, #28343b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b5bdc8), color-stop(36%,#828c95), color-stop(100%,#28343b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #b5bdc8 0%,#828c95 36%,#28343b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #b5bdc8 0%,#828c95 36%,#28343b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #b5bdc8 0%,#828c95 36%,#28343b 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #b5bdc8 0%,#828c95 36%,#28343b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+}
+div.blah2, div.section2, body.blah2 {font-size: 11pt;display: inline-block;background:#8f8f8f; height: 100%; width: 100%; background:rgba(0,0,0,0.85);}
+
+html.mod{
+background-image: -webkit-gradient(
+linear,
+left bottom,
+right top,
+color-stop(0.11, rgb(227,227,227)),
+color-stop(0.26, rgb(199,199,199)),
+color-stop(0.33, rgb(184,184,184))
+);
+background-image: -moz-linear-gradient(
+left bottom,
+rgb(227,227,227) 11%,
+rgb(199,199,199) 26%,
+rgb(184,184,184) 33%
+);
+height:100%
+}
+body.mod2 {
+background: url(http://image.tmdb.org/t/p/original/hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg);
+height:100%;
+width: 100%;
+}
+
+div.bg-img {
+  width: 100%;
+  height: 100%;
+  background: url('https://dl.dropboxusercontent.com/u/5049340/office%402x.png') center center no-repeat;
+  background-size: cover;
+  
+  &:before {
+    content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+		opacity: .6; 
+  }
+}
+span.fullMovie {font-size: 6.5pt;}
+.pageTitle {font-size: 16pt;}
+.col-xs-3-cast-label{font-size: 10pt;}
+.plain {font-size: 10pt;}
+div.movieDetailPoster {width: 17%; padding: 25px 15px 40px 18px; min-height: 450px;}
+div.movieDetailText {width: 83%; padding: 20px 20px 0 20px;}
+div.movieDetailBlock, div.movieDetailBlockDirector, div.movieDetailBlockCast {font-size: 13pt;}
+.categoryTitle2 {font-size: 12pt;}
+.movieDetailTitle {font-size: 16pt;}
+.col-xs-3-photo { padding: 0 10px;}
+.col-xs-3-cast-label{min-height: 20px;}
+p.plot {font-size: 14pt;}
+.col-xs-3-cast{padding-right: 5px; padding-left: 5px;}
+.carousel-inner > .item {
+  -webkit-transition: 1.2s ease-in-out left;
+       -o-transition: 1.2s ease-in-out left;
+          transition: 1.2s ease-in-out left;
+}
+img.previousMovieGroup{transform: perspective( 445px ) rotateY( 30deg ); -webkit-transform: perspective( 445px ) rotateY( 30deg ); max-width: 100%; height: 215px;}
+img.nextMovieGroup{transform: perspective( 445px ) rotateY( -30deg ); -webkit-transform: perspective( 445px ) rotateY( -30deg ); max-width: 100%; height: 215px;}
+.movieTitleWide {background:#8f8f8f; background:rgba(0,0,0,0.1); padding: 8px 3px 6px 6px; margin: 10px 5px 0 5px; min-height: 32px; vertical-align: middle; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;}
+
+/* Line 1424 */
+.col-xs-3
+{
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+a.thumbnail:hover img.movieArt, a.thumbnail:active img.movieArt, a.thumbnail:focus img.movieArt{ opacity: 1.0; }
+a.thumbnail:hover + div.movieTitle, a.thumbnail:active + div.movieTitle, a.thumbnail:focus + div.movieTitle{ color: #eee; }
+#nrCarousel {padding: 0 24px;}

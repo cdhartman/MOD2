@@ -1,0 +1,102 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "id": 771244799,
+  "title": "Playing for Keeps",
+  "year": 2012,
+  "genres": [
+    "Drama",
+    "Sports & Fitness",
+    "Comedy"
+  ],
+  "mpaa_rating": "PG-13",
+  "runtime": 106,
+  "critics_consensus": "",
+  "release_dates": {
+    "theater": "2012-12-07",
+    "dvd": "2013-03-05"
+  },
+  "ratings": {
+    "critics_rating": "Rotten",
+    "critics_score": 4,
+    "audience_rating": "Spilled",
+    "audience_score": 42
+  },
+  "synopsis": "Gerard Butler, Jessica Biel, Uma Thurman, Catherine Zeta-Jones and Dennis Quaid star in Playing for Keeps, a romantic comedy about a charming, down-on-his luck former soccer star (Butler) who returns home to put his life back together. Looking for a way to rebuild his relationship with his son, he gets roped into coaching the boy's soccer team. But his attempts to finally become an \"adult\" are met with hilarious challenges from the attractive \"soccer moms\" who pursue him at every turn. -- (C) Film District",
+  "posters": {
+    "thumbnail": "http://content7.flixster.com/movie/11/17/17/11171701_tmb.jpg",
+    "profile": "http://content7.flixster.com/movie/11/17/17/11171701_tmb.jpg",
+    "detailed": "http://content7.flixster.com/movie/11/17/17/11171701_tmb.jpg",
+    "original": "http://content7.flixster.com/movie/11/17/17/11171701_tmb.jpg"
+  },
+  "abridged_cast": [
+    {
+      "name": "Gerard Butler",
+      "id": "162659102",
+      "characters": ["George"]
+    },
+    {
+      "name": "Jessica Biel",
+      "id": "162652974",
+      "characters": ["Stacie"]
+    },
+    {
+      "name": "Noah Lomax",
+      "id": "771104131",
+      "characters": ["Lewis"]
+    },
+    {
+      "name": "Dennis Quaid",
+      "id": "162655527",
+      "characters": ["Carl"]
+    },
+    {
+      "name": "Uma Thurman",
+      "id": "162654901",
+      "characters": ["Patti"]
+    }
+  ],
+  "abridged_directors": [{"name": "Gabriele Muccino"}],
+  "studio": "FilmDistrict",
+  "alternate_ids": {"imdb": "1540128"},
+  "links": {
+    "self": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id=1540128",
+    "alternate": "http://www.rottentomatoes.com/m/playing_for_keeps_2012/",
+    "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771244799/cast.json",
+    "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771244799/reviews.json",
+    "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771244799/similar.json",
+    "canonical": "http://api.rottentomatoes.com/api/public/v1.0/movies/771244799.json"
+  },
+  "link_template": "http://api.rottentomatoes.com/api/public/v1.0/movie_alias.json?type=imdb&id={alias-id}"
+}
